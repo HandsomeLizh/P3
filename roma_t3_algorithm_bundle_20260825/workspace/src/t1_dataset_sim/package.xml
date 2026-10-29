@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>t1_dataset_sim</name>
+  <version>0.2.0</version>
+  <description>Dataset-backed stereo, CameraInfo, IMU and semantic ROS 2 publisher.</description>
+  <maintainer email="3127775604@qq.com">guderian</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <depend>builtin_interfaces</depend>
+  <depend>nav_msgs</depend>
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>python3-numpy</exec_depend>
+  <exec_depend>python3-opencv</exec_depend>
+  <exec_depend>python3-openpyxl</exec_depend>
+  <exec_depend>python3-pandas</exec_depend>
+  <exec_depend>python3-yaml</exec_depend>
+
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

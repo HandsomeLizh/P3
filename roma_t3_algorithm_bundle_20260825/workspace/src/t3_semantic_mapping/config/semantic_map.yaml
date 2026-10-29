@@ -1,0 +1,140 @@
+roma_semantic_mapper_node:
+  ros__parameters:
+    # Machine-dependent algorithm_root and calib_path are supplied by launch.
+    algorithm_module: roma_vo
+    algorithm_class: StereoSLAMv2
+
+    map_frame: map
+    odom_frame: odom
+    local_grid_map_frame: odom
+    # The localization state and default output are the left-camera optical
+    # centre. Never change child_frame to body/base_link without also passing
+    # the calibrated T_camera_child and explicit confirmation through launch.
+    # child_frame is supplied by the shared launch options. It is deliberately
+    # not repeated here because some ROS 2 releases give this parameter file
+    # precedence over later launch overrides.
+    camera_pitch_deg: 30.0
+
+    # Translational camera/map offset. Set map_z_offset_m to the measured
+    # first-camera optical-centre height if ground should be near Z=0.
+    map_x_offset_m: 0.0
+    map_y_offset_m: 0.0
+    map_z_offset_m: 0.0
+
+    map_resolution: 0.20
+    # High-resolution output is a bounded rolling window. The complete global
+    # map remains sparse internally and is delivered by file/ROI service.
+    map_length_x: 64.0
+    map_length_y: 64.0
+    # Window placement and IncrementalSemanticMap transport mode are launch
+    # controls and intentionally not repeated here; this avoids parameter-file
+    # precedence defeating explicit fixed-window/full-tile combinations.
+    # 256 cells at 0.20 m gives 51.2 m square global-map tiles.
+    map_tile_cells: 256
+    map_id: t3_semantic_map
+    free_class_ids: [1]
+    occupied_class_ids: [3, 4]
+    # Finite sentinel meaning "use (0, 0) as the global tile-lattice origin".
+    # ROS 2 ParameterValue rejects NaN on some supported distributions.
+    map_origin_x: -1.0e300
+    map_origin_y: -1.0e300
+
+    # RoMa inference defaults are intentionally not duplicated here. Both
+    # direct node execution and the formal T5 launch import the authoritative
+    # values from roma_runtime_defaults.py.
+
+    # enable_imu and keyframe_interval are supplied by the shared launch
+    # options. Keeping switches out of this file prevents parameter-file
+    # precedence from defeating explicit launch overrides. Direct node
+    # execution retains the same defaults in declare_parameter().
+    enable_backend: false
+    enable_loop_closing: false
+    publish_tf: true
+    save_on_shutdown: true
+
+    # Publish only the standard, high-value local GridMap layers. Auxiliary
+    # image/cloud and legacy incremental outputs remain disabled by launch or
+    # these explicit switches.
+    publish_local_occupancy_grid: false
+    publish_incremental_map: false
+    local_grid_map_layers:
+      [occupancy, semantic_id, elevation, roughness]
+
+    # Current complete high-resolution map as one standard GridMap message.
+    # It is rebuilt only when the global map revision changes and is retained
+    # by DDS for late subscribers.
+    publish_global_grid_map: true
+    global_grid_map_layers: [elevation]
+
+    # Low-rate global display and bounded high-resolution regional access.
+    publish_global_overview: true
+    global_overview_resolution: 1.0
+    global_overview_period_sec: 20.0
+    grid_map_query_max_cells: 1000000
+
+    # Single-file finalized global map. Internal fusion snapshots are retained
+    # separately so mapping can still be reconstructed without quantization.
+    compact_global_map_filename: global_grid_map.sqlite3
+    compact_global_map_compression_level: 6
+
+    # One directly readable dense matrix archive. Map revisions are written by
+    # a coalescing background thread; the save service and normal shutdown wait
+    # for the newest revision. Large simulations may disable this while
+    # retaining the sparse SQLite map.
+    save_dense_global_grid_map: true
+    dense_global_grid_map_filename: global_grid_map.npz
+
+    # Localisation selectors and external-LIO interface values are supplied by
+    # launch (defaults: vo/none and /Odometry). Do not repeat them here: some
+    # supported ROS 2 releases give the first parameter file precedence and
+    # would silently ignore a launch override. The node declarations retain
+    # safe defaults for direct executable use. External LIO launch refuses to
+    # start until T_lidar_child is explicitly supplied and confirmed.
+    lio_buffer_size: 2000
+    lio_buffer_age_sec: 300.0
+
+    # Local factor graph. Qc and measurement noise are initial values for
+    # sequence-level tuning, not claimed sensor calibration constants.
+    fusion_lag_sec: 10.0
+    fusion_solver: incremental  # incremental / batch
+    fusion_gp_qc_rotation: [1.0, 1.0, 2.0]
+    fusion_gp_qc_translation: [2.0, 2.0, 2.0]
+    fusion_vo_rotation_sigma_deg: [1.5, 1.5, 2.5]
+    fusion_vo_translation_sigma_m: [0.08, 0.08, 0.12]
+    fusion_lio_rotation_sigma_deg: [0.5, 0.5, 0.8]
+    fusion_lio_translation_sigma_m: [0.03, 0.03, 0.05]
+    fusion_robust_huber_k: 1.5
+    fusion_map_rebuild_translation_m: 0.02
+    fusion_map_rebuild_rotation_deg: 0.5
+
+    # Independent global loop safety gates. The master switch, provider and
+    # MPRF endpoint are supplied by launch (default: off / mprf / localhost)
+    # and are intentionally not repeated here, avoiding parameter precedence
+    # differences between ROS 2 distributions.
+    global_loop_submap_keyframes: 3
+    global_loop_voxel_size_m: 0.25
+    global_loop_max_points: 5000
+    # Old verification submaps are losslessly compressed on disk; only this
+    # many recent/candidate geometries remain in RAM.
+    global_loop_geometry_cache_records: 16
+    global_loop_min_keyframe_separation: 20
+    global_loop_min_time_separation_sec: 20.0
+    global_loop_scan_context_min_similarity: 0.35
+    global_loop_icp_max_correspondence_m: 1.0
+    global_loop_icp_min_inliers: 120
+    global_loop_icp_min_overlap: 0.25
+    global_loop_icp_min_unique_target_ratio: 0.50
+    global_loop_icp_max_rmse_m: 0.30
+    global_loop_max_correction_m: 4.0
+    global_loop_max_correction_deg: 25.0
+    global_graph_robust_huber_k: 1.5
+    global_graph_odometry_rotation_sigma_deg: [0.8, 0.8, 1.2]
+    global_graph_odometry_translation_sigma_m: [0.05, 0.05, 0.08]
+
+    max_rays_per_update: 1200
+    # Lossless observation-archive controls are supplied by launch and are not
+    # repeated here, avoiding parameter-file precedence differences between
+    # ROS 2 releases. Direct executable defaults are enabled / 64 / zlib 1.
+    visible_max_points: 30000
+    pointcloud_max_points: 50000
+    path_max_length: 5000

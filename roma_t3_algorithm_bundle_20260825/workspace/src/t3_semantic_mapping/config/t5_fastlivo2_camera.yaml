@@ -1,0 +1,17 @@
+# RGB10 camera model for FAST-LIVO2/Vikit.
+/**:
+  ros__parameters:
+    cam_model: Pinhole
+    cam_width: 2448
+    cam_height: 2048
+    # FAST-LIVO2 resizes the raw image and these intrinsics by this factor.
+    scale: 0.5
+    cam_fx: 2387.321863398319
+    cam_fy: 2387.321863398319
+    cam_cx: 1234.8338881021152
+    cam_cy: 1003.643015022512
+    cam_d0: 0.025884149199444057
+    cam_d1: -0.17666124672006672
+    cam_d2: 0.0002927399919587708
+    cam_d3: 0.0006705681124301397
+    cam_d4: 0.08437054112767335

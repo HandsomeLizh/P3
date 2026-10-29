@@ -1,0 +1,51 @@
+# FAST-LIO2 configuration for the T5 Ouster OS1-128.
+# Topics follow ~/Desktop/TOPIC_SPECIFICATION.md.
+# The Ouster driver publishes points already transformed into sensor_frame.
+# FAST-LIO2 uses p_imu=T_imu_sensor*p_sensor for these published coordinates.
+/**:
+  ros__parameters:
+    feature_extract_enable: false
+    point_filter_num: 3
+    max_iteration: 3
+    filter_size_surf: 0.5
+    filter_size_map: 0.5
+    cube_side_length: 1000.0
+    runtime_pos_log_enable: false
+    map_file_path: "./t5_ouster_fastlio.pcd"
+
+    common:
+      lid_topic: "/Car/T5/OS1/points"
+      imu_topic: "/Car/T5/OS1/imu"
+      time_sync_en: false
+      time_offset_lidar_to_imu: 0.0
+
+    preprocess:
+      lidar_type: 3
+      scan_line: 128
+      timestamp_unit: 3
+      blind: 4.0
+
+    mapping:
+      acc_cov: 0.1
+      gyr_cov: 0.1
+      b_acc_cov: 0.0001
+      b_gyr_cov: 0.0001
+      # Keep the vehicle stationary while this bias/gravity estimate is collected.
+      imu_init_duration_s: 10.0
+      fov_degree: 360.0
+      det_range: 150.0
+      extrinsic_est_en: false
+      extrinsic_T: [0.002441, 0.009725, -0.007533]
+      extrinsic_R: [1.0, 0.0, 0.0,
+                    0.0, 1.0, 0.0,
+                    0.0, 0.0, 1.0]
+
+    publish:
+      path_en: true
+      scan_publish_en: true
+      dense_publish_en: true
+      scan_bodyframe_pub_en: true
+
+    pcd_save:
+      pcd_save_en: false
+      interval: -1

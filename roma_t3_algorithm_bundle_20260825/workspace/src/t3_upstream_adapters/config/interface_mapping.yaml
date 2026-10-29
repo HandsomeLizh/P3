@@ -1,0 +1,70 @@
+# 先用 run_t1_t2_adapter_template.sh 的 --profile 选 standard/t1/t2/t1_t2。
+# 只有 profile 启用的段会被加载；下面改字段不需要重新编译。
+t1_fusion_adapter:
+  ros__parameters:
+    # 仅 --profile t1 / t1_t2 会加载这一段。
+    # --profile standard 表示上游已经分开发布标准消息，下面字段会被忽略。
+    # 明天第一个必改项：ros2 interface show 显示的完整类型。
+    input_message_type: "CHANGE_ME_T1_INTERFACES/msg/FusionData"
+    input_topic: "/Car/T1/fusion/multimodal"
+
+    # 以下是示例路径，必须按 ros2 interface show 看到的真实字段名修改。
+    # 点号表示嵌套字段，数组元素可写 cameras[0].image。
+    # 左右目必须是 sensor_msgs/msg/Image。
+    left_image_field: "stereo.left_image"
+    right_image_field: "stereo.right_image"
+    # 可以是单个 Imu，也可以是 Imu 数组；空字符串表示不发布。
+    imu_field: "imu_samples"
+    # 必须是 PointCloud2；默认 RoMa VO 不用 LiDAR，所以保持为 ""。
+    # 启用 LiDAR 建图后，再改成真实字段，例如 "dense_cloud"。
+    lidar_field: ""
+    # 可选 nav_msgs/msg/Odometry；FAST-LIO2 已单独发布时保持为 ""。
+    odometry_field: ""
+
+    left_output_topic: "/Car/T1/fusion/stereo/left/image_raw"
+    right_output_topic: "/Car/T1/fusion/stereo/right/image_raw"
+    imu_output_topic: "/Car/T1/fusion/imu/data"
+    lidar_output_topic: "/Car/T1/fusion/lidar/points"
+    odometry_output_topic: "/Odometry"
+
+    # 必须与课题一实际发布端一致。
+    input_reliability: "reliable"
+    input_qos_depth: 10
+    image_output_reliability: "reliable"
+    imu_output_reliability: "reliable"
+    lidar_output_reliability: "best_effort"
+    odometry_output_reliability: "best_effort"
+    output_qos_depth: 10
+
+    required_image_encoding: "bgr8"
+    # 保持 0 最稳妥；只有实测确认后才能放宽。
+    maximum_stereo_skew_sec: 0.0
+
+t2_scene_adapter:
+  ros__parameters:
+    # 明天第二个必改项。
+    input_message_type: "CHANGE_ME_T2_INTERFACES/msg/SceneSemanticModel"
+    input_topic: "/T2/semantic/scene"
+
+    # 方式 A：SceneSemanticModel 嵌套了 mono8/8UC1 Image。
+    label_image_field: "semantic.label_image"
+
+    # 方式 B：只有原始 uint8 数组。使用 B 时将 label_image_field 改为 ""，
+    # 再填写以下四个字段路径。两种方式不能同时配置。
+    raw_label_data_field: ""
+    raw_label_height_field: ""
+    raw_label_width_field: ""
+    raw_label_header_field: "header"
+
+    output_topic: "/Car/T2/semantic/label_image"
+    input_reliability: "reliable"
+    output_reliability: "reliable"
+    qos_depth: 10
+
+    # 0 表示不在适配器中锁定分辨率；实车建议填真实左图尺寸。
+    expected_width: 0
+    expected_height: 0
+
+    # 索引=课题二原始类别 ID，值=课题三类别 ID。
+    # 未列出的输入 ID 统一映射为 0(unknown)。正式类别表到手后必须重写。
+    class_lut: [0, 1, 2, 3, 4]

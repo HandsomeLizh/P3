@@ -1,0 +1,55 @@
+#!/usr/bin/env bash
+# One-time machine/site configuration loaded automatically by
+# scripts/enter_t3_environment.sh.
+#
+# Install this file as:
+#   ~/.config/t3_gridmap_v2/environment.sh
+# Then replace every /actual/... value that is used at your site.
+
+# Existing ROS 2 Humble installation.  For a standard binary installation,
+# keep /opt/ros/humble/setup.bash.  For a source build, use its install setup.
+export ROS_SETUP_FILE=/opt/ros/humble/setup.bash
+
+# Runtime environments, caches, input calibration and outputs stay outside
+# t3_gridmap_v2_ws.
+export T3_DELIVERY=/opt/t3_gridmap_v2_delivery
+export T3_WS="$T3_DELIVERY/t3_gridmap_v2_ws"
+export T3_DEPS="$T3_DELIVERY/t3_gridmap_v2_ws_dependencies"
+export T3_RUNTIME_ROOT="$HOME/t3_gridmap_v2_runtime"
+export ROS_VENV="$T3_RUNTIME_ROOT/ros_venv"
+export T3_CONDA_ENV="$T3_RUNTIME_ROOT/conda_ros"
+export ROS_PYTHON_EXECUTABLE=/usr/bin/python3
+
+# Default Python environment used when enter_t3_environment.sh has no mode
+# argument.  Choose exactly one of: venv, conda, system.
+export T3_DEFAULT_ENV_MODE=venv
+
+# ROS network.  Change ROS_DOMAIN_ID only when the other machines use the same
+# value.  Cyclone DDS is the project default.
+export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+export ROS_DOMAIN_ID=0
+
+# T1/T2 input profile: standard, t1, t2, or t1_t2.
+export T3_PROFILE=standard
+
+# Required for the default RoMa stereo path.  This directory must contain the
+# real organized stereo calibration expected by the mapper.
+export T3_CALIB_DIR=/actual/stereo_calibration_directory
+
+# LiDAR values are harmless in VO-only mode and are used when LiDAR mapping or
+# LIO/VO-LIO is selected.  The extrinsics loader expects JSON containing
+# LiDAR_to_Cam_L.RT, not YAML.
+export T3_LIDAR_TOPIC=/Car/T1/fusion/lidar/points
+export T3_LIDAR_EXTRINSICS=/actual/lidar_to_left_camera_extrinsics.json
+export T3_LIDAR_FRAME=velodyne
+
+# FAST-LIO2 launch configuration and its Odometry frame contract.
+export T3_FASTLIO_CONFIG_DIR=/actual/fastlio_config
+export T3_FASTLIO_CONFIG_FILE=velodyne.yaml
+export T3_LIO_ODOMETRY_TOPIC=/Odometry
+export T3_LIO_PARENT_FRAME=camera_init
+export T3_LIO_CHILD_FRAME=body
+
+# Only required for localization_mode=lio or vo_lio.  Uncomment after replacing
+# it with a measured row-major 4x4 T_lidar_child transform.
+# export T3_LIO_CHILD_TO_LIDAR='[1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1]'

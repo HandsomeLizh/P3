@@ -1,0 +1,99 @@
+--- a/src/FAST_LIO_ROS2/src/IMU_Processing.hpp
++++ b/src/FAST_LIO_ROS2/src/IMU_Processing.hpp
+@@ -1,3 +1,4 @@
++#include <algorithm>
+ #include <cmath>
+ #include <math.h>
+ #include <deque>
+@@ -23,8 +24,6 @@
+ 
+ /// *************Preconfiguration
+ 
+-#define MAX_INI_COUNT (10)
+-
+ const bool time_list(PointType &x, PointType &y) {return (x.curvature < y.curvature);};
+ 
+ /// *************IMU Process and undistortion
+@@ -46,6 +45,7 @@ class ImuProcess
+   void set_acc_cov(const V3D &scaler);
+   void set_gyr_bias_cov(const V3D &b_g);
+   void set_acc_bias_cov(const V3D &b_a);
++  void set_init_duration(const double duration_s);
+   Eigen::Matrix<double, 12, 12> Q;
+   void Process(const MeasureGroup &meas,  esekfom::esekf<state_ikfom, 12, input_ikfom> &kf_state, PointCloudXYZI::Ptr pcl_un_);
+ 
+@@ -76,6 +76,7 @@ class ImuProcess
+   V3D acc_s_last;
+   double start_timestamp_;
+   double last_lidar_end_time_;
++  double init_duration_s_ = 0.1;
+   int    init_iter_num = 1;
+   bool   b_first_frame_ = true;
+   bool   imu_need_init_ = true;
+@@ -153,6 +154,11 @@ void ImuProcess::set_acc_bias_cov(const V3D &b_a)
+   cov_bias_acc = b_a;
+ }
+ 
++void ImuProcess::set_init_duration(const double duration_s)
++{
++  init_duration_s_ = std::max(0.0, duration_s);
++}
++
+ void ImuProcess::IMU_init(const MeasureGroup &meas, esekfom::esekf<state_ikfom, 12, input_ikfom> &kf_state, int &N)
+ {
+   /** 1. initializing the gravity, gyro bias, acc and gyro covariance
+@@ -354,14 +360,17 @@ void ImuProcess::Process(const MeasureGroup &meas,  esekfom::esekf<state_ikfom,
+     last_imu_   = meas.imu.back();
+ 
+     state_ikfom imu_state = kf_state.get_x();
+-    if (init_iter_num > MAX_INI_COUNT)
++    const double init_elapsed_s = meas.lidar_beg_time - first_lidar_time;
++    if (init_iter_num > 10 && init_elapsed_s >= init_duration_s_)
+     {
+       cov_acc *= pow(G_m_s2 / mean_acc.norm(), 2);
+       imu_need_init_ = false;
+ 
+       cov_acc = cov_acc_scale;
+       cov_gyr = cov_gyr_scale;
+-      std::cout << "IMU Initial Done" << std::endl;
++      std::cout << "IMU Initial Done after " << init_elapsed_s
++                << " s using " << init_iter_num << " samples; gyro bias [rad/s]: "
++                << mean_gyr.transpose() << std::endl;
+       // ROS_INFO("IMU Initial Done: Gravity: %.4f %.4f %.4f %.4f; state.bias_g: %.4f %.4f %.4f; acc covarience: %.8f %.8f %.8f; gry covarience: %.8f %.8f %.8f",\
+       //          imu_state.grav[0], imu_state.grav[1], imu_state.grav[2], mean_acc.norm(), cov_bias_gyr[0], cov_bias_gyr[1], cov_bias_gyr[2], cov_acc[0], cov_acc[1], cov_acc[2], cov_gyr[0], cov_gyr[1], cov_gyr[2]);
+       fout_imu.open(DEBUG_FILE_DIR("imu.txt"),ios::out);
+--- a/src/FAST_LIO_ROS2/src/laserMapping.cpp
++++ b/src/FAST_LIO_ROS2/src/laserMapping.cpp
+@@ -89,7 +89,7 @@ string map_file_path, lid_topic, imu_topic;
+ 
+ double res_mean_last = 0.05, total_residual = 0.0;
+ double last_timestamp_lidar = 0, last_timestamp_imu = -1.0;
+-double gyr_cov = 0.1, acc_cov = 0.1, b_gyr_cov = 0.0001, b_acc_cov = 0.0001;
++double gyr_cov = 0.1, acc_cov = 0.1, b_gyr_cov = 0.0001, b_acc_cov = 0.0001, imu_init_duration_s = 0.1;
+ double filter_size_corner_min = 0, filter_size_surf_min = 0, filter_size_map_min = 0, fov_deg = 0;
+ double cube_len = 0, HALF_FOV_COS = 0, FOV_DEG = 0, total_distance = 0, lidar_end_time = 0, first_lidar_time = 0.0;
+ int    effct_feat_num = 0, time_log_counter = 0, scan_count = 0, publish_count = 0;
+@@ -820,6 +820,7 @@ public:
+         this->declare_parameter<double>("mapping.acc_cov", 0.1);
+         this->declare_parameter<double>("mapping.b_gyr_cov", 0.0001);
+         this->declare_parameter<double>("mapping.b_acc_cov", 0.0001);
++        this->declare_parameter<double>("mapping.imu_init_duration_s", 0.1);
+         this->declare_parameter<double>("preprocess.blind", 0.01);
+         this->declare_parameter<int>("preprocess.lidar_type", AVIA);
+         this->declare_parameter<int>("preprocess.scan_line", 16);
+@@ -856,6 +857,7 @@ public:
+         this->get_parameter_or<double>("mapping.acc_cov",acc_cov,0.1);
+         this->get_parameter_or<double>("mapping.b_gyr_cov",b_gyr_cov,0.0001);
+         this->get_parameter_or<double>("mapping.b_acc_cov",b_acc_cov,0.0001);
++        this->get_parameter_or<double>("mapping.imu_init_duration_s",imu_init_duration_s,0.1);
+         this->get_parameter_or<double>("preprocess.blind", p_pre->blind, 0.01);
+         this->get_parameter_or<int>("preprocess.lidar_type", p_pre->lidar_type, AVIA);
+         this->get_parameter_or<int>("preprocess.scan_line", p_pre->N_SCANS, 16);
+@@ -899,6 +901,7 @@ public:
+         p_imu->set_acc_cov(V3D(acc_cov, acc_cov, acc_cov));
+         p_imu->set_gyr_bias_cov(V3D(b_gyr_cov, b_gyr_cov, b_gyr_cov));
+         p_imu->set_acc_bias_cov(V3D(b_acc_cov, b_acc_cov, b_acc_cov));
++        p_imu->set_init_duration(imu_init_duration_s);
+ 
+         fill(epsi, epsi+23, 0.001);
+         kf.init_dyn_share(get_f, df_dx, df_dw, h_share_model, NUM_MAX_ITERATIONS, epsi);

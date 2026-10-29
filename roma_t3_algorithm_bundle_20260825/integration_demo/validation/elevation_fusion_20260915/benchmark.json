@@ -1,0 +1,54 @@
+{
+  "scope": "Synthetic LiDAR XY-cell updates + tile copy-on-write, not end-to-end VO/ROS/RViz",
+  "platform": "Linux-5.15.148-tegra-aarch64-with-glibc2.35",
+  "python": "3.10.12",
+  "cells_per_update": 12000,
+  "measured_updates_per_mode": 12,
+  "tiles": 4,
+  "timing_ms": {
+    "mean": {
+      "median": 610.8661984999344,
+      "p95": 616.0445465498924,
+      "samples": [
+        617.7410979998967,
+        609.7780860000057,
+        613.420806999784,
+        611.9437609995657,
+        614.6564589998889,
+        610.3352659993106,
+        611.3971310005581,
+        610.2786030005518,
+        606.7077610005072,
+        608.9397970008577,
+        614.0764609990583,
+        606.8237339986808
+      ]
+    },
+    "variance": {
+      "median": 667.7179864991558,
+      "p95": 677.9974066495015,
+      "samples": [
+        665.8956159990339,
+        667.6359559987759,
+        667.8000169995357,
+        688.0882330005988,
+        665.7587680001598,
+        666.8572720009251,
+        665.1251920011418,
+        668.5075360001065,
+        661.5754720005498,
+        669.648920000327,
+        668.7782249991869,
+        669.7412759986037
+      ]
+    }
+  },
+  "gate_rejected_points": {
+    "mean": 0,
+    "variance": 1502
+  },
+  "extra_filter_array_bytes": 2097152,
+  "notes": "No ray cleanup, GPU, bags, ROS nodes or vehicle control. Fixed heuristic noise, not calibrated accuracy.",
+  "median_overhead_ms": 56.851787999221415,
+  "median_overhead_percent": 9.306749684109018
+}

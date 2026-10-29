@@ -1,0 +1,13 @@
+--- a/src/FAST_LIO_ROS2/src/preprocess.h
++++ b/src/FAST_LIO_ROS2/src/preprocess.h
+@@ -94 +94 @@
+-  uint8_t ring;
++  uint16_t ring;
+@@ -110 +110 @@
+-    (std::uint8_t, ring, ring)
++    (std::uint16_t, ring, ring)
+--- a/src/FAST_LIO_ROS2/src/laserMapping.cpp
++++ b/src/FAST_LIO_ROS2/src/laserMapping.cpp
+@@ -929 +929 @@
+-        sub_imu_ = this->create_subscription<sensor_msgs::msg::Imu>(imu_topic, 10, imu_cbk);
++        sub_imu_ = this->create_subscription<sensor_msgs::msg::Imu>(imu_topic, rclcpp::SensorDataQoS(), imu_cbk);

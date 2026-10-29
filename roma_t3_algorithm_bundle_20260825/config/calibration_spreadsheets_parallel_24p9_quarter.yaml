@@ -1,0 +1,75 @@
+# Live quarter-resolution derivative of calibration_spreadsheets_parallel_24p9.yaml.
+# The sensor adapter downsamples 2448x2048 to 612x512 with cv::resize. Intrinsic
+# pixel coordinates are therefore scaled uniformly by 0.25. Metric extrinsics,
+# baseline, field of view, and the confirmed 24.9 degree mounting angle are unchanged.
+
+calibration_metadata:
+  source_intrinsics: vehicle_frd_calibration_20260817.xlsx
+  source_hardware: multimodal_sensor_architecture_v7.xlsx
+  parent_profile: simulation_parallel_24p9
+  profile: simulation_parallel_24p9_live_quarter
+  image_scale: 0.25
+  measured_vehicle_axes: x_forward_y_right_z_down
+  ros_body_axes: x_forward_y_left_z_up
+  geometry_assumptions:
+    - identical left/right mounting rotation
+    - exactly parallel optical axes
+    - measured stereo baseline retained
+    - simulator uses an ideal zero-distortion pinhole model
+    - intrinsics are uniformly scaled from the 2448x2048 calibration
+
+raw_stereo:
+  width: 612
+  height: 512
+  left:
+    name: RGB10
+    k:
+      - [579.1550160104468, 0.0, 307.7380220584399]
+      - [0.0, 579.0605700141476, 247.67125309121678]
+      - [0.0, 0.0, 1.0]
+    d: [0.0, 0.0, 0.0, 0.0, 0.0]
+  right:
+    name: RGB11
+    k:
+      - [579.1550160104468, 0.0, 307.7380220584399]
+      - [0.0, 579.0605700141476, 247.67125309121678]
+      - [0.0, 0.0, 1.0]
+    d: [0.0, 0.0, 0.0, 0.0, 0.0]
+  transform_right_to_left:
+    - [1.0, 0.0, 0.0, 0.25002891330636623]
+    - [0.0, 1.0, 0.0, 0.0]
+    - [0.0, 0.0, 1.0, 0.0]
+    - [0.0, 0.0, 0.0, 1.0]
+
+mounting:
+  vehicle_axes: x_forward_y_right_z_down
+  camera_axes: x_right_y_down_z_forward
+  downward_pitch_deg: 24.9
+  transform_vehicle_left:
+    - [0.0, -0.421035813367491, 0.907044014291465, 0.529841638180579]
+    - [1.0, 0.0, 0.0, -0.129759135607494]
+    - [0.0, 0.907044014291465, 0.421035813367491, -0.831680201971904]
+    - [0.0, 0.0, 0.0, 1.0]
+  transform_vehicle_right:
+    - [0.0, -0.421035813367491, 0.907044014291465, 0.529841638180579]
+    - [1.0, 0.0, 0.0, 0.120269777698872]
+    - [0.0, 0.907044014291465, 0.421035813367491, -0.831680201971904]
+    - [0.0, 0.0, 0.0, 1.0]
+
+source_measurements:
+  image_size_px: [2448, 2048]
+  runtime_image_size_px: [612, 512]
+  runtime_image_scale: 0.25
+  pixel_size_mm: [0.00345, 0.00345]
+  nominal_focal_length_mm: 8.0
+  nominal_fov_deg: [55.7, 47.7]
+  common_intrinsic_source: nominal_fov_and_measured_principal_point_mean
+  measured_left_principal_point_px: [1234.8338881021152, 1003.643015022512]
+  measured_right_principal_point_px: [1227.070288365404, 977.7270097072222]
+  baseline_m: 0.25002891330636623
+
+depth:
+  min: 0.1
+  max: 100.0
+stereo:
+  epipolar_threshold_px: 0.75

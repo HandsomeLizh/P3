@@ -1,0 +1,42 @@
+# Weights / models
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.safetensors
+models/
+# Data, recordings, run outputs
+*.bag
+*.db3
+*.mcap
+*.pcd
+*.ply
+*.npy
+*.npz
+recordings/
+output_demo/
+output_native/
+results/
+# Logs and runtime state
+*.log
+log/
+logs/
+log_native/
+*.pid
+*.lock
+run_state.json
+# Build products
+build/
+install/
+build_native/
+install_native/
+__pycache__/
+*.pyc
+*.so
+*.o
+*.a
+# Archives
+*.tar.gz
+*.tgz
+*.zst
+*.zip

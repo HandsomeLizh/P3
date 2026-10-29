@@ -1,0 +1,14 @@
+torch
+einops
+torchvision
+opencv-python-headless>=4.9.0.80,<5
+kornia
+albumentations
+loguru
+tqdm
+matplotlib
+h5py
+wandb
+timm
+poselib
+fused-local-corr>=0.2.2

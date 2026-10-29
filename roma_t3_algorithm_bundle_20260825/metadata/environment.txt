@@ -1,0 +1,12 @@
+bundle_created_at=2026-08-25T09:10:55+00:00
+hostname=yanfa
+ubuntu=Ubuntu 22.04.5 LTS
+architecture=x86_64
+kernel=6.8.0-40-generic
+python=Python 3.10.12
+ros_distro=humble
+ros_domain_id=228
+torch=2.11.0+cu130
+cuda_runtime=13.0
+cuda_available=True
+gpu=NVIDIA GeForce RTX 5090 D v2

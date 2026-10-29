@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>t2_basic_semantics</name>
+  <version>0.2.0</version>
+  <description>Basic OpenCV semantic segmentation used only for Task 3 standalone validation.</description>
+  <maintainer email="3127775604@qq.com">guderian</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>python3-opencv</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

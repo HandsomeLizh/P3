@@ -1,0 +1,13 @@
+/build*/
+/install*/
+/log*/
+/output/
+/T3_BUILD_INFO.txt
+/offline_deploy/runtime/
+/third_party/fastlio2/build*/
+/third_party/fastlio2/install*/
+/third_party/fastlio2/log*/
+/third_party/fastlio2/local/
+.pytest_cache/
+**/__pycache__/
+*.pyc

@@ -1,0 +1,87 @@
+{
+  "source": "recorded_envx_smoke_test",
+  "topic_message_counts": {
+    "/T3/semantic/trajectory": 5,
+    "/T3/semantic/incremental_map": 5,
+    "/T3/mapping/lidar_map": 5,
+    "/T3/mapping/global_grid_map": 5,
+    "/T3/semantic/current_pose": 4,
+    "/T3/mapping/lidar_incremental": 4
+  },
+  "pose_count": 4,
+  "processing_receipts": 4,
+  "lidar_preview_points": 150739,
+  "elevation_known_cells": 229057,
+  "pose_frames": [
+    [
+      "odom",
+      "base_link"
+    ]
+  ],
+  "all_required_topics_received": true,
+  "poses_finite": true,
+  "visual_travel_m": 1.8512707876807069,
+  "timing_messages": [
+    {
+      "schema_version": 1,
+      "sequence": 9,
+      "sensor_stamp_ns": 1787492530398000128,
+      "sensor_stamp_sec": 1787492530.3980002,
+      "frame_id": "rgb_0",
+      "outcome": "completed",
+      "pose_processing_sec": 1.4119849209673703,
+      "map_update_sec": 2.8601148310117424,
+      "end_to_end_sec": 4.27626125595998,
+      "localization_solution_start_monotonic_ns": 546240047786433,
+      "pose_publish_completion_monotonic_ns": 546241459771354,
+      "map_update_start_monotonic_ns": 546241459771354,
+      "map_publish_completion_monotonic_ns": 546244319886185
+    },
+    {
+      "schema_version": 1,
+      "sequence": 10,
+      "sensor_stamp_ns": 1787492535615000064,
+      "sensor_stamp_sec": 1787492535.6150002,
+      "frame_id": "rgb_0",
+      "outcome": "completed",
+      "pose_processing_sec": 1.4277692789910361,
+      "map_update_sec": 2.84852432704065,
+      "end_to_end_sec": 4.280431461986154,
+      "localization_solution_start_monotonic_ns": 546245474733853,
+      "pose_publish_completion_monotonic_ns": 546246902503132,
+      "map_update_start_monotonic_ns": 546246902503132,
+      "map_publish_completion_monotonic_ns": 546249751027459
+    },
+    {
+      "schema_version": 1,
+      "sequence": 11,
+      "sensor_stamp_ns": 1787492540778000128,
+      "sensor_stamp_sec": 1787492540.7780004,
+      "frame_id": "rgb_0",
+      "outcome": "completed",
+      "pose_processing_sec": 1.3872554000699893,
+      "map_update_sec": 2.8486629049293697,
+      "end_to_end_sec": 4.239946176996455,
+      "localization_solution_start_monotonic_ns": 546250902819488,
+      "pose_publish_completion_monotonic_ns": 546252290074888,
+      "map_update_start_monotonic_ns": 546252290074888,
+      "map_publish_completion_monotonic_ns": 546255138737793
+    },
+    {
+      "schema_version": 1,
+      "sequence": 12,
+      "sensor_stamp_ns": 1787492545952000000,
+      "sensor_stamp_sec": 1787492545.9520001,
+      "frame_id": "rgb_0",
+      "outcome": "completed",
+      "pose_processing_sec": 1.4019338600337505,
+      "map_update_sec": 2.897912207990885,
+      "end_to_end_sec": 4.303859828040004,
+      "localization_solution_start_monotonic_ns": 546256231686029,
+      "pose_publish_completion_monotonic_ns": 546257633619889,
+      "map_update_start_monotonic_ns": 546257633619889,
+      "map_publish_completion_monotonic_ns": 546260531532097
+    }
+  ],
+  "passed": true
+}

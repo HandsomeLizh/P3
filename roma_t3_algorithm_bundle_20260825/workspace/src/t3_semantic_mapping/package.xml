@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>t3_semantic_mapping</name>
+  <version>0.2.0</version>
+  <description>RoMa stereo localisation and semantic/elevation/occupancy 2.5D GridMap.</description>
+  <maintainer email="3127775604@qq.com">guderian</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <depend>ament_index_python</depend>
+  <depend>geometry_msgs</depend>
+  <depend>grid_map_msgs</depend>
+  <depend>launch</depend>
+  <depend>launch_ros</depend>
+  <depend>message_filters</depend>
+  <depend>nav_msgs</depend>
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>std_srvs</depend>
+  <depend>t1_dataset_sim</depend>
+  <exec_depend>t2_basic_semantics</exec_depend>
+  <depend>t3_interfaces</depend>
+  <depend>tf2_ros</depend>
+
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>python3-numpy</exec_depend>
+  <exec_depend>python3-opencv</exec_depend>
+  <exec_depend>python3-scipy</exec_depend>
+  <exec_depend>python3-yaml</exec_depend>
+
+  <!-- Only the frozen fixed PointCloud2 reference test needs this helper. -->
+  <test_depend>sensor_msgs_py</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

@@ -1,0 +1,24 @@
+# OS1 terrain evidence for map enlargement only.
+# This file is not consumed by RoMa localisation. The mapper applies the
+# already-estimated VO pose T_map_base before updating elevation cells.
+version: 1
+base_frame: base_link
+map_frame: map
+
+sensors:
+  os1:
+    topic: /Car/T5/OS1/points
+    expected_frame_id: sensors
+    max_time_offset_sec: 0.20
+    queue_size: 20
+    min_range_m: 0.50
+    max_range_m: 80.0
+    voxel_size_m: 0.20
+    max_points: 50000
+    calibration_source: t5_rgb10_rgb11.yaml transform_vehicle_lidar
+    # p_base_link = T_base_sensor * p_sensor; ROS FLU, metres.
+    transform_base_sensor:
+      - [0.999792381538890, -0.019805577221191, -0.004788833650211, 0.606527746614407]
+      - [-0.019806574622300, -0.999803817606889, -0.000160936077148, -0.002299598293482]
+      - [-0.004784706733462, 0.000255753054894, -0.999988520520035, 0.612012803599003]
+      - [0.0, 0.0, 0.0, 1.0]

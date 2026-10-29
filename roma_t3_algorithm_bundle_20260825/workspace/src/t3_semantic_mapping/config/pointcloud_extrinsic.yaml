@@ -1,0 +1,64 @@
+# Optional terrain-point-cloud elevation fusion for the T5 vehicle.
+#
+# Transform convention for every sensor below:
+#   p_base_link = T_base_sensor * p_sensor
+#
+# The measured vehicle frame used by the 2026-08-17 workbook is FRD
+# (x forward, y right, z down). These matrices have already been converted
+# to ROS REP-103 base_link FLU (x forward, y left, z up) by left-multiplying
+# the measured T_vehicle_sensor by diag(1, -1, -1, 1).
+#
+# RoMa localisation never consumes this file. It is loaded only when
+# enable_pointcloud_fusion:=true.
+version: 1
+base_frame: base_link
+map_frame: map
+
+sensors:
+  os1:
+    topic: /Car/T5/OS1/points
+    expected_frame_id: sensor_frame
+    max_time_offset_sec: 0.20
+    queue_size: 20
+    min_range_m: 0.50
+    max_range_m: 80.0
+    voxel_size_m: 0.20
+    max_points: 50000
+    calibration_source: t5_rgb10_rgb11.yaml transform_vehicle_lidar
+    transform_base_sensor:
+      - [0.999792381538890, -0.019805577221191, -0.004788833650211, 0.606527746614407]
+      - [-0.019806574622300, -0.999803817606889, -0.000160936077148, -0.002299598293482]
+      - [-0.004784706733462, 0.000255753054894, -0.999988520520035, 0.612012803599003]
+      - [0.0, 0.0, 0.0, 1.0]
+
+  tof_left:
+    topic: /Car/T5/TOF_Left/points
+    expected_frame_id: TOF_Left
+    max_time_offset_sec: 0.60
+    queue_size: 4
+    min_range_m: 0.30
+    max_range_m: 30.0
+    voxel_size_m: 0.10
+    max_points: 30000
+    calibration_source: legacy fused_tof_ouster_publisher.py TOF5
+    transform_base_sensor:
+      - [0.484813645628375, -0.446136656445680, 0.752275091165454, 0.631491210521062]
+      - [-0.874604714019806, -0.251943086955145, 0.414235772416923, 0.072757225012513]
+      - [0.004724746221408, -0.858770495948120, -0.512338669302017, 0.359620088210717]
+      - [0.0, 0.0, 0.0, 1.0]
+
+  tof_right:
+    topic: /Car/T5/TOF_Right/points
+    expected_frame_id: TOF_Right
+    max_time_offset_sec: 0.60
+    queue_size: 4
+    min_range_m: 0.30
+    max_range_m: 30.0
+    voxel_size_m: 0.10
+    max_points: 30000
+    calibration_source: legacy fused_tof_ouster_publisher.py TOF4
+    transform_base_sensor:
+      - [-0.486389844634982, -0.442471574095870, 0.753421412725361, 0.608408913567865]
+      - [-0.873736940462225, 0.249218473568956, -0.417700743719315, -0.111512699361456]
+      - [-0.002945828859080, -0.861457519874939, -0.507821094031403, 0.358032653436852]
+      - [0.0, 0.0, 0.0, 1.0]

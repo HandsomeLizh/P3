@@ -1,0 +1,8 @@
+{
+  "bag": "/home/yanfa/Env_X/InterFace/bags/20260824_235238",
+  "frames": 174,
+  "sensor_duration_sec": 598.731787,
+  "reference_distance_m": 79.39781727303435,
+  "selection": "First continuous prefix within 600 seconds, selected before running algorithms.",
+  "reference_qualification": "Approximate capture timing; no corrected exposure-time ground truth."
+}

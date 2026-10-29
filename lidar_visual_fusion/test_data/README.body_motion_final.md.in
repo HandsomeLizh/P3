@@ -1,0 +1,47 @@
+# P3：LiDAR＋视觉定位与建图
+
+工作目录：`/home/yanfa/P3/lidar_visual_fusion`。
+
+使用 **VoxelMap＋XFeat/LighterGlue＋ROS2 融合**。LiDAR 发布三维位姿及方向协方差，视觉提供同一跟踪周期内的车体运动；无可用视觉时继续使用 LiDAR。IMU 保留可选自动接入，未确认标定或没有 IMU 时使用无 IMU 路径。
+
+高程图、LiDAR 点云图和轨迹使用 P3 原有 RViz 窗口；正式里程计和增量地图沿用 P3 的 ROS2 接口。原 P3 主项目保持独立。
+
+## 启动
+
+```bash
+cd /home/yanfa/P3/lidar_visual_fusion
+./start_live.sh --rviz                 # 接收当前 ROS 域的实时传感器
+./test_fusion_bag.sh clean             # 原约 79 米路线，带 RViz
+./test_fusion_bag.sh perturbed         # 同路线：黑屏、过曝、斜强光、低照度
+./test_fusion_bag.sh suite             # 顺序测试四条轨迹及图像干扰
+./status.sh
+./save_map.sh
+./stop.sh
+```
+
+同一时间启动一套本项目的回放／建图任务。与规划端使用相同的 `--domain`；跨机器 DDS 加 `--network`。测试使用隔离的 ROS 域 57。若需要自行启动传感器采集，可使用启动器已有的 `--capture`；已有采集进程时直接订阅它的 ROS 域。
+
+## 已完成的多轨迹测试
+
+__RESULT_TABLE__
+
+原约 79 米路线加入图像干扰后，ATE 为 **__FAULT_ATE__ cm**，__FAULT_MAP__ 帧全部入图。原始 bag 没有修改。
+
+这里报告固定尺度的仿真位置 ATE。short 的参考时间间隔较大，仅此例允许不超过 0.5 秒的参考插值，其余例为 0.25 秒；所有方法按相同评分时间戳比较。次日平坦路线仍有较大的局部误差，融合不保证每段都胜过最好的单传感器。
+
+含 RViz 的进程树 RSS 峰值范围为 **__MEMORY_RANGE__ GiB**。原 bag 每约 3～4 秒才有一组数据，计算耗时与采样间隔分开统计。详细结果、时间限制和最大误差见 [多轨迹报告](docs/fusion_multitrajectory_report.md)。
+
+## 地图与资源
+
+- 高程地图：`/T3/mapping/elevation_map`。
+- 点云地图：`/T3/mapping/lidar_map`。
+- 正式位姿：`/T3/semantic/current_pose`；增量地图：`/T3/semantic/incremental_map`。
+- 常驻高程瓦片最多 64 块、缓存预算 128 MiB；点云预览最多 15 万点，P3 RViz 显示最多约 5 万点。
+- 地图在磁盘上分块增长。全局高分辨率栅格达到上限后，使用 SQLite、增量地图和分区查询；不要把旧的全局 NPZ 当成最新全图。
+- 入图队列有上限；等待视觉修正期间保留最早待处理帧，避免高速输入导致一直无法入图。高频过载下会报告主动丢弃的建图输入帧。
+
+正式接口、查询和坐标系见 [接口与资源约定](docs/接口与资源约定.md)。源码与实际安装代码在启动时校验；修改源码后执行 `./build.sh`。
+
+本轮 bag 均无 IMU，没有报告实车精度或规划控制闭环结果。最新 P3 的后验高程不确定性目前单独评审，未将本模块的高度散布方差改称后验不确定性，见 [评审记录](docs/p3_gridmap_uncertainty_review.md)。
+
+早期绝对位姿融合和旧坐标版本的结果保留用于追查，当前结论以 [本轮报告](docs/fusion_multitrajectory_report.md) 为准。

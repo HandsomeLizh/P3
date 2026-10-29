@@ -1,0 +1,70 @@
+{
+  "backend": "xfeat_lighterglue",
+  "device": "cuda",
+  "repetitions": 3,
+  "scope": "Repeated static pair only; not full odometry, live throughput or robustness",
+  "timings": {
+    "extract_sec": {
+      "p50": 0.04334609400029876,
+      "p95": 0.04382748329953756,
+      "p99": 0.0438702734594699
+    },
+    "match_sec": {
+      "p50": 0.05283699099891237,
+      "p95": 0.05341308010101784,
+      "p99": 0.053464288021204995
+    },
+    "total_sec": {
+      "p50": 0.09608323899919924,
+      "p95": 0.09723057880055422,
+      "p99": 0.09733256456067466
+    }
+  },
+  "samples": [
+    {
+      "extract_sec": 0.04324624800028687,
+      "match_sec": 0.05283699099891237,
+      "total_sec": 0.09608323899919924,
+      "matches": 371,
+      "left_features": 1024,
+      "right_features": 1024
+    },
+    {
+      "extract_sec": 0.04334609400029876,
+      "match_sec": 0.05185907999839401,
+      "total_sec": 0.09520517399869277,
+      "matches": 371,
+      "left_features": 1024,
+      "right_features": 1024
+    },
+    {
+      "extract_sec": 0.043880970999452984,
+      "match_sec": 0.05347709000125178,
+      "total_sec": 0.09735806100070477,
+      "matches": 371,
+      "left_features": 1024,
+      "right_features": 1024
+    }
+  ],
+  "resources": {
+    "backend": "xfeat_lighterglue",
+    "device": "cuda",
+    "max_keypoints": 1024,
+    "torch_version": "2.8.0",
+    "torch_cuda_build": "12.6",
+    "model_parameter_bytes": 10683012,
+    "cuda_allocated_bytes": 20875776,
+    "cuda_reserved_bytes": 85983232,
+    "cuda_peak_allocated_bytes": 53447680
+  },
+  "image_shapes": [
+    [
+      536,
+      640
+    ],
+    [
+      536,
+      640
+    ]
+  ]
+}

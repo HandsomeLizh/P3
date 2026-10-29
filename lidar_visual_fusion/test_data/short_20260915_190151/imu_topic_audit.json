@@ -1,0 +1,45 @@
+{
+  "bag": "/home/yanfa/P3/roma_t3_algorithm_bundle_20260825/recordings/short_20260915_190151/bag",
+  "topics": {
+    "/car/pose": {
+      "type": "geometry_msgs/msg/PoseStamped",
+      "count": 4711
+    },
+    "/car/odom": {
+      "type": "nav_msgs/msg/Odometry",
+      "count": 4711
+    },
+    "/T3/semantic/trajectory": {
+      "type": "nav_msgs/msg/Path",
+      "count": 59
+    },
+    "/T3/semantic/incremental_map": {
+      "type": "t3_interfaces/msg/IncrementalSemanticMap",
+      "count": 55
+    },
+    "/T3/semantic/current_pose": {
+      "type": "nav_msgs/msg/Odometry",
+      "count": 58
+    },
+    "/T3/mapping/lidar_status": {
+      "type": "std_msgs/msg/String",
+      "count": 119
+    },
+    "/Car/T5/OS1/points": {
+      "type": "sensor_msgs/msg/PointCloud2",
+      "count": 58
+    },
+    "/Car/T5/Cam_Right/image_raw/color": {
+      "type": "sensor_msgs/msg/Image",
+      "count": 58
+    },
+    "/Car/T5/Cam_Left/image_raw/color": {
+      "type": "sensor_msgs/msg/Image",
+      "count": 58
+    },
+    "/Car/T3/metrics/frame_timing": {
+      "type": "std_msgs/msg/String",
+      "count": 58
+    }
+  }
+}

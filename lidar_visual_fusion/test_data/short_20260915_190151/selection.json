@@ -1,0 +1,237 @@
+{
+  "bag": "/home/yanfa/P3/roma_t3_algorithm_bundle_20260825/recordings/short_20260915_190151/bag",
+  "inspected_utc": "2026-09-15T12:30:34.376132+00:00",
+  "read_only_inspection": true,
+  "playback_started": false,
+  "algorithm_tests_started": false,
+  "metadata_sha256": "0e60a7b32bb41305676e234fb99f74de2c2d2e62f46f391a8fcaa79fa6fd7221",
+  "parts": [
+    {
+      "name": "bag_0.db3",
+      "bytes": 2168950784,
+      "mtime_ns": 1789470322747533634
+    },
+    {
+      "name": "bag_1.db3",
+      "bytes": 403091456,
+      "mtime_ns": 1789470361575096200
+    }
+  ],
+  "bag_size_gib": 2.3954010009765625,
+  "record_duration_sec": 235.523799723,
+  "sensor_duration_sec": 232.407,
+  "frames": 58,
+  "header_time_scale": 1.0,
+  "replay_base_ns": 1000000000000,
+  "first_raw_header_ns": 1789470125089635026,
+  "last_raw_header_ns": 1789470357496635026,
+  "interval_sec": {
+    "count": 57,
+    "min": 3.994,
+    "median": 4.047,
+    "p95": 4.1318,
+    "max": 4.841
+  },
+  "input_hz": 0.24525939408021272,
+  "sensors": {
+    "/Car/T5/Cam_Left/image_raw/color": {
+      "count": 58,
+      "first": {
+        "part": "bag_0.db3",
+        "message_id": 31,
+        "header_ns": 1789470125089635026,
+        "receive_ns": 1789470126724867303,
+        "frame": "rgb_0",
+        "height": 2048,
+        "width": 2448,
+        "encoding": "bgra8"
+      },
+      "last": {
+        "part": "bag_1.db3",
+        "message_id": 1532,
+        "header_ns": 1789470357496635026,
+        "receive_ns": 1789470359016947266,
+        "frame": "rgb_0",
+        "height": 2048,
+        "width": 2448,
+        "encoding": "bgra8"
+      },
+      "record_delay_sec": {
+        "count": 58,
+        "min": 1.464493434,
+        "median": 1.570039967,
+        "p95": 1.6498463617,
+        "max": 2.26985697
+      }
+    },
+    "/Car/T5/Cam_Right/image_raw/color": {
+      "count": 58,
+      "first": {
+        "part": "bag_0.db3",
+        "message_id": 42,
+        "header_ns": 1789470125089635026,
+        "receive_ns": 1789470126942931161,
+        "frame": "rgb_1",
+        "height": 2048,
+        "width": 2448,
+        "encoding": "bgra8"
+      },
+      "last": {
+        "part": "bag_1.db3",
+        "message_id": 1541,
+        "header_ns": 1789470357496635026,
+        "receive_ns": 1789470359221368670,
+        "frame": "rgb_1",
+        "height": 2048,
+        "width": 2448,
+        "encoding": "bgra8"
+      },
+      "record_delay_sec": {
+        "count": 58,
+        "min": 1.673864926,
+        "median": 1.7738440695,
+        "p95": 1.84162058175,
+        "max": 2.47955178
+      }
+    },
+    "/Car/T5/OS1/points": {
+      "count": 58,
+      "first": {
+        "part": "bag_0.db3",
+        "message_id": 43,
+        "header_ns": 1789470125089635026,
+        "receive_ns": 1789470126951967014,
+        "frame": "sensors",
+        "height": 1,
+        "width": 131072,
+        "fields": [
+          {
+            "name": "x",
+            "offset": 0,
+            "datatype": 7,
+            "count": 1
+          },
+          {
+            "name": "y",
+            "offset": 4,
+            "datatype": 7,
+            "count": 1
+          },
+          {
+            "name": "z",
+            "offset": 8,
+            "datatype": 7,
+            "count": 1
+          }
+        ]
+      },
+      "last": {
+        "part": "bag_1.db3",
+        "message_id": 1542,
+        "header_ns": 1789470357496635026,
+        "receive_ns": 1789470359223262923,
+        "frame": "sensors",
+        "height": 1,
+        "width": 131072,
+        "fields": [
+          {
+            "name": "x",
+            "offset": 0,
+            "datatype": 7,
+            "count": 1
+          },
+          {
+            "name": "y",
+            "offset": 4,
+            "datatype": 7,
+            "count": 1
+          },
+          {
+            "name": "z",
+            "offset": 8,
+            "datatype": 7,
+            "count": 1
+          }
+        ]
+      },
+      "record_delay_sec": {
+        "count": 58,
+        "min": 1.675411149,
+        "median": 1.778955246,
+        "p95": 1.8618120328,
+        "max": 2.48116422
+      }
+    }
+  },
+  "reference": {
+    "topic": "/car/pose",
+    "count": 4711,
+    "frame": "odom",
+    "travel_m": 14.456275359985735,
+    "net_displacement_m": 7.973779816746068,
+    "height_range_m": 0.0004100799560546875,
+    "interval_sec": {
+      "count": 4710,
+      "min": 8.5206e-05,
+      "median": 0.0499705295,
+      "p95": 0.05130882155,
+      "max": 0.385137636
+    },
+    "qualification": "Independent simulator telemetry. Request-anchored sensor clock and telemetry receive clock; absolute exposure-time offset is not certified. Position diagnostic only; reference body quaternion convention has not been verified."
+  },
+  "calibration_checks": {
+    "image_size": true,
+    "left_K": true,
+    "right_K": true,
+    "left_mount": true,
+    "right_mount": true,
+    "lidar_mount": true
+  },
+  "calibration_files": {
+    "/home/yanfa/P3/roma_t3_algorithm_bundle_20260825/recordings/short_20260915_190151/calibration_spreadsheets_parallel_24p9.yaml": "08f878b41c9c3b7005a395842ddea574a192975845a7b5d7395b9715754b1f6f",
+    "/home/yanfa/P3/roma_t3_algorithm_bundle_20260825/recordings/short_20260915_190151/pointcloud_extrinsic_os1_mapping_only.yaml": "d01e1f0b2cf2b0c70f3f93ffe9c26211b3303096dead050fb89407f3dc7c7132",
+    "/home/yanfa/P3/lidar_visual_fusion/config/simulation_xfeat.yaml": "ad8b57c26bcf757eaf91ebbec057e3540f1eba25e07da2ca8f93391112364b2a"
+  },
+  "image_samples": [
+    {
+      "frame": 0,
+      "mean": 232.00898294526144,
+      "std": 9.59431235209241,
+      "dark_fraction": 0.0,
+      "saturated_fraction": 0.007199754901960784
+    },
+    {
+      "frame": 14,
+      "mean": 232.48990553513076,
+      "std": 9.58298686710997,
+      "dark_fraction": 0.0,
+      "saturated_fraction": 0.009140114379084968
+    },
+    {
+      "frame": 28,
+      "mean": 231.82345373774515,
+      "std": 9.516280335590995,
+      "dark_fraction": 0.0,
+      "saturated_fraction": 0.004391339869281046
+    },
+    {
+      "frame": 42,
+      "mean": 232.8453920547386,
+      "std": 9.671762981965594,
+      "dark_fraction": 0.0,
+      "saturated_fraction": 0.010467728758169934
+    },
+    {
+      "frame": 57,
+      "mean": 232.7795310457517,
+      "std": 9.71695652914499,
+      "dark_fraction": 0.0,
+      "saturated_fraction": 0.010876225490196078
+    }
+  ],
+  "limitations": [
+    "58 frames at approximately 0.25 Hz cannot establish maximum sustainable FPS.",
+    "Five image samples do not certify extreme-lighting coverage.",
+    "No independent ground surface truth is present for elevation-map accuracy."
+  ]
+}

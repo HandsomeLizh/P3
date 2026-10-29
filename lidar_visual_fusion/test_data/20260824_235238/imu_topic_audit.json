@@ -1,0 +1,115 @@
+{
+  "bag": "/home/yanfa/Env_X/InterFace/bags/20260824_235238",
+  "parts_checked": 42,
+  "topics": {
+    "/sensor/batch_status": {
+      "type": "std_msgs/msg/String",
+      "count": 588
+    },
+    "/car/wheel_commands": {
+      "type": "lunar_car_ctrl/msg/WheelCommands",
+      "count": 10588
+    },
+    "/car/pose": {
+      "type": "geometry_msgs/msg/PoseStamped",
+      "count": 42350
+    },
+    "/car/telemetry": {
+      "type": "lunar_car_ctrl/msg/VehicleTelemetry",
+      "count": 42348
+    },
+    "/Car/T5/event_camera_right/cd_events/image": {
+      "type": "sensor_msgs/msg/Image",
+      "count": 587
+    },
+    "/galaxy_node/set_camera_params": {
+      "type": "std_msgs/msg/ByteMultiArray",
+      "count": 0
+    },
+    "/Car/T5/event_camera_left/cd_events/image": {
+      "type": "sensor_msgs/msg/Image",
+      "count": 587
+    },
+    "/car/goal_point": {
+      "type": "geometry_msgs/msg/PoseStamped",
+      "count": 0
+    },
+    "/Car/T5/event_camera_left/cd_events": {
+      "type": "sjcam_msgs/msg/EventArray",
+      "count": 587
+    },
+    "/Car/T5/Cam_Left/image_raw/color": {
+      "type": "sensor_msgs/msg/Image",
+      "count": 588
+    },
+    "/Car/T5/TOF_Left/points": {
+      "type": "sensor_msgs/msg/PointCloud2",
+      "count": 587
+    },
+    "/Car/T5/Cam_Left/image_raw/low_exposure": {
+      "type": "sensor_msgs/msg/Image",
+      "count": 588
+    },
+    "/Car/T5/Cam_Right/image_raw/color": {
+      "type": "sensor_msgs/msg/Image",
+      "count": 588
+    },
+    "/car/set_mode": {
+      "type": "std_msgs/msg/String",
+      "count": 0
+    },
+    "/Car/T5/Cam_Right/image_raw/low_exposure": {
+      "type": "sensor_msgs/msg/Image",
+      "count": 588
+    },
+    "/car/odom": {
+      "type": "nav_msgs/msg/Odometry",
+      "count": 42349
+    },
+    "/car/cmd_vel": {
+      "type": "geometry_msgs/msg/Twist",
+      "count": 21174
+    },
+    "/Car/T5/TOF_Left2/points": {
+      "type": "sensor_msgs/msg/PointCloud2",
+      "count": 587
+    },
+    "/Car/T5/TOF_Left/image_raw/depth": {
+      "type": "sensor_msgs/msg/Image",
+      "count": 587
+    },
+    "/sensor/meta": {
+      "type": "std_msgs/msg/String",
+      "count": 0
+    },
+    "/Car/T5/TOF_Left2/image_raw/depth": {
+      "type": "sensor_msgs/msg/Image",
+      "count": 587
+    },
+    "/Car/T5/event_camera_right/cd_events": {
+      "type": "sjcam_msgs/msg/EventArray",
+      "count": 587
+    },
+    "/Car/T5/OS1/points": {
+      "type": "sensor_msgs/msg/PointCloud2",
+      "count": 588
+    },
+    "/Car/T5/TOF_Right/image_raw/depth": {
+      "type": "sensor_msgs/msg/Image",
+      "count": 587
+    },
+    "/Car/T5/TOF_Right/points": {
+      "type": "sensor_msgs/msg/PointCloud2",
+      "count": 587
+    },
+    "/Car/T5/TOF_Right2/points": {
+      "type": "sensor_msgs/msg/PointCloud2",
+      "count": 588
+    },
+    "/Car/T5/TOF_Right2/image_raw/depth": {
+      "type": "sensor_msgs/msg/Image",
+      "count": 588
+    }
+  },
+  "standard_imu_topics": []
+}

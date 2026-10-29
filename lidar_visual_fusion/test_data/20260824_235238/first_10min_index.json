@@ -1,0 +1,3351 @@
+{
+  "bag": "/home/yanfa/Env_X/InterFace/bags/20260824_235238",
+  "clock_source": "LiDAR bag receive time; batch association checked for 1.2 s maximum span and non-overlap",
+  "qualification": "Approximate capture timing; no corrected exposure-time ground truth.",
+  "parts": [
+    {
+      "name": "20260824_235238_0.db3",
+      "bytes": 2147799040,
+      "mtime_ns": 1787586808234077082
+    },
+    {
+      "name": "20260824_235238_1.db3",
+      "bytes": 2156056576,
+      "mtime_ns": 1787586856258810758
+    },
+    {
+      "name": "20260824_235238_2.db3",
+      "bytes": 2148388864,
+      "mtime_ns": 1787586904007563204
+    },
+    {
+      "name": "20260824_235238_3.db3",
+      "bytes": 2151104512,
+      "mtime_ns": 1787586952000299057
+    },
+    {
+      "name": "20260824_235238_4.db3",
+      "bytes": 2149847040,
+      "mtime_ns": 1787587000433004985
+    },
+    {
+      "name": "20260824_235238_5.db3",
+      "bytes": 2147835904,
+      "mtime_ns": 1787587046049902426
+    },
+    {
+      "name": "20260824_235238_6.db3",
+      "bytes": 2152607744,
+      "mtime_ns": 1787587094402613795
+    },
+    {
+      "name": "20260824_235238_7.db3",
+      "bytes": 2163953664,
+      "mtime_ns": 1787587142475344207
+    },
+    {
+      "name": "20260824_235238_8.db3",
+      "bytes": 2165272576,
+      "mtime_ns": 1787587190064107534
+    },
+    {
+      "name": "20260824_235238_9.db3",
+      "bytes": 2167689216,
+      "mtime_ns": 1787587239808724235
+    },
+    {
+      "name": "20260824_235238_10.db3",
+      "bytes": 2157240320,
+      "mtime_ns": 1787587288885386366
+    },
+    {
+      "name": "20260824_235238_11.db3",
+      "bytes": 2161381376,
+      "mtime_ns": 1787587340533873578
+    },
+    {
+      "name": "20260824_235238_12.db3",
+      "bytes": 2156937216,
+      "mtime_ns": 1787587394474204914
+    },
+    {
+      "name": "20260824_235238_13.db3",
+      "bytes": 2150334464,
+      "mtime_ns": 1787587447114624662
+    },
+    {
+      "name": "20260824_235238_14.db3",
+      "bytes": 2157346816,
+      "mtime_ns": 1787587498695116499
+    },
+    {
+      "name": "20260824_235238_15.db3",
+      "bytes": 2167181312,
+      "mtime_ns": 1787587550331604527
+    },
+    {
+      "name": "20260824_235238_16.db3",
+      "bytes": 2163466240,
+      "mtime_ns": 1787587602976024003
+    },
+    {
+      "name": "20260824_235238_17.db3",
+      "bytes": 2149027840,
+      "mtime_ns": 1787587655064481291
+    },
+    {
+      "name": "20260824_235238_18.db3",
+      "bytes": 2152001536,
+      "mtime_ns": 1787587707116941028
+    },
+    {
+      "name": "20260824_235238_19.db3",
+      "bytes": 2154430464,
+      "mtime_ns": 1787587759497378458
+    },
+    {
+      "name": "20260824_235238_20.db3",
+      "bytes": 2148245504,
+      "mtime_ns": 1787587811289855877
+    },
+    {
+      "name": "20260824_235238_21.db3",
+      "bytes": 2169090048,
+      "mtime_ns": 1787587862866347986
+    },
+    {
+      "name": "20260824_235238_22.db3",
+      "bytes": 2148290560,
+      "mtime_ns": 1787587914714821596
+    },
+    {
+      "name": "20260824_235238_23.db3",
+      "bytes": 2162921472,
+      "mtime_ns": 1787587966183321050
+    },
+    {
+      "name": "20260824_235238_24.db3",
+      "bytes": 2164330496,
+      "mtime_ns": 1787588017151854508
+    },
+    {
+      "name": "20260824_235238_25.db3",
+      "bytes": 2152222720,
+      "mtime_ns": 1787588068612354506
+    },
+    {
+      "name": "20260824_235238_26.db3",
+      "bytes": 2153041920,
+      "mtime_ns": 1787588119888867018
+    },
+    {
+      "name": "20260824_235238_27.db3",
+      "bytes": 2152861696,
+      "mtime_ns": 1787588170869399660
+    },
+    {
+      "name": "20260824_235238_28.db3",
+      "bytes": 2152034304,
+      "mtime_ns": 1787588221889929581
+    },
+    {
+      "name": "20260824_235238_29.db3",
+      "bytes": 2152095744,
+      "mtime_ns": 1787588273334430667
+    },
+    {
+      "name": "20260824_235238_30.db3",
+      "bytes": 2152390656,
+      "mtime_ns": 1787588324834927945
+    },
+    {
+      "name": "20260824_235238_31.db3",
+      "bytes": 2154156032,
+      "mtime_ns": 1787588376255430663
+    },
+    {
+      "name": "20260824_235238_32.db3",
+      "bytes": 2154020864,
+      "mtime_ns": 1787588426943983164
+    },
+    {
+      "name": "20260824_235238_33.db3",
+      "bytes": 2149568512,
+      "mtime_ns": 1787588477540541921
+    },
+    {
+      "name": "20260824_235238_34.db3",
+      "bytes": 2150428672,
+      "mtime_ns": 1787588528545072931
+    },
+    {
+      "name": "20260824_235238_35.db3",
+      "bytes": 2151841792,
+      "mtime_ns": 1787588579013640394
+    },
+    {
+      "name": "20260824_235238_36.db3",
+      "bytes": 2151550976,
+      "mtime_ns": 1787588629086234788
+    },
+    {
+      "name": "20260824_235238_37.db3",
+      "bytes": 2151645184,
+      "mtime_ns": 1787588680026770150
+    },
+    {
+      "name": "20260824_235238_38.db3",
+      "bytes": 2149507072,
+      "mtime_ns": 1787588730423342509
+    },
+    {
+      "name": "20260824_235238_39.db3",
+      "bytes": 2151923712,
+      "mtime_ns": 1787588780819914869
+    },
+    {
+      "name": "20260824_235238_40.db3",
+      "bytes": 2151178240,
+      "mtime_ns": 1787588831956436901
+    },
+    {
+      "name": "20260824_235238_41.db3",
+      "bytes": 1843933184,
+      "mtime_ns": 1787588876609399903
+    }
+  ],
+  "frames": [
+    {
+      "record_ns": 1787586760057278965,
+      "original_frame": 0,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_0.db3",
+          "id": 29
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_0.db3",
+          "id": 42
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_0.db3",
+          "id": 70
+        }
+      }
+    },
+    {
+      "record_ns": 1787586763542327759,
+      "original_frame": 1,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_0.db3",
+          "id": 305
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_0.db3",
+          "id": 319
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_0.db3",
+          "id": 350
+        }
+      }
+    },
+    {
+      "record_ns": 1787586767136034890,
+      "original_frame": 2,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_0.db3",
+          "id": 587
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_0.db3",
+          "id": 597
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_0.db3",
+          "id": 640
+        }
+      }
+    },
+    {
+      "record_ns": 1787586770636176034,
+      "original_frame": 3,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_0.db3",
+          "id": 867
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_0.db3",
+          "id": 879
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_0.db3",
+          "id": 920
+        }
+      }
+    },
+    {
+      "record_ns": 1787586774049060360,
+      "original_frame": 4,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_0.db3",
+          "id": 1208
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_0.db3",
+          "id": 1163
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_0.db3",
+          "id": 1190
+        }
+      }
+    },
+    {
+      "record_ns": 1787586777580273375,
+      "original_frame": 5,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_0.db3",
+          "id": 1427
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_0.db3",
+          "id": 1447
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_0.db3",
+          "id": 1478
+        }
+      }
+    },
+    {
+      "record_ns": 1787586781245066040,
+      "original_frame": 6,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_0.db3",
+          "id": 1716
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_0.db3",
+          "id": 1730
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_0.db3",
+          "id": 1769
+        }
+      }
+    },
+    {
+      "record_ns": 1787586784620546670,
+      "original_frame": 7,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_0.db3",
+          "id": 1995
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_0.db3",
+          "id": 2008
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_0.db3",
+          "id": 2041
+        }
+      }
+    },
+    {
+      "record_ns": 1787586788304490832,
+      "original_frame": 8,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_0.db3",
+          "id": 2280
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_0.db3",
+          "id": 2296
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_0.db3",
+          "id": 2335
+        }
+      }
+    },
+    {
+      "record_ns": 1787586791791588511,
+      "original_frame": 9,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_0.db3",
+          "id": 2560
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_0.db3",
+          "id": 2576
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_0.db3",
+          "id": 2615
+        }
+      }
+    },
+    {
+      "record_ns": 1787586795107144097,
+      "original_frame": 10,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_0.db3",
+          "id": 2838
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_0.db3",
+          "id": 2850
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_0.db3",
+          "id": 2879
+        }
+      }
+    },
+    {
+      "record_ns": 1787586798602137079,
+      "original_frame": 11,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_0.db3",
+          "id": 3115
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_0.db3",
+          "id": 3129
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_0.db3",
+          "id": 3159
+        }
+      }
+    },
+    {
+      "record_ns": 1787586802098618791,
+      "original_frame": 12,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_0.db3",
+          "id": 3395
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_0.db3",
+          "id": 3409
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_0.db3",
+          "id": 3441
+        }
+      }
+    },
+    {
+      "record_ns": 1787586805696675803,
+      "original_frame": 13,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_0.db3",
+          "id": 3674
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_0.db3",
+          "id": 3691
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_0.db3",
+          "id": 3730
+        }
+      }
+    },
+    {
+      "record_ns": 1787586809036560550,
+      "original_frame": 14,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_1.db3",
+          "id": 24
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_1.db3",
+          "id": 37
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_1.db3",
+          "id": 69
+        }
+      }
+    },
+    {
+      "record_ns": 1787586812578338766,
+      "original_frame": 15,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_1.db3",
+          "id": 307
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_1.db3",
+          "id": 338
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_1.db3",
+          "id": 352
+        }
+      }
+    },
+    {
+      "record_ns": 1787586816023529855,
+      "original_frame": 16,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_1.db3",
+          "id": 577
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_1.db3",
+          "id": 589
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_1.db3",
+          "id": 630
+        }
+      }
+    },
+    {
+      "record_ns": 1787586819393992811,
+      "original_frame": 17,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_1.db3",
+          "id": 853
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_1.db3",
+          "id": 869
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_1.db3",
+          "id": 900
+        }
+      }
+    },
+    {
+      "record_ns": 1787586822733611624,
+      "original_frame": 18,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_1.db3",
+          "id": 1126
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_1.db3",
+          "id": 1139
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_1.db3",
+          "id": 1168
+        }
+      }
+    },
+    {
+      "record_ns": 1787586826170917265,
+      "original_frame": 19,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_1.db3",
+          "id": 1400
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_1.db3",
+          "id": 1415
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_1.db3",
+          "id": 1444
+        }
+      }
+    },
+    {
+      "record_ns": 1787586829652459834,
+      "original_frame": 20,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_1.db3",
+          "id": 1684
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_1.db3",
+          "id": 1693
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_1.db3",
+          "id": 1720
+        }
+      }
+    },
+    {
+      "record_ns": 1787586833128922492,
+      "original_frame": 21,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_1.db3",
+          "id": 1957
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_1.db3",
+          "id": 1972
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_1.db3",
+          "id": 2003
+        }
+      }
+    },
+    {
+      "record_ns": 1787586836641471559,
+      "original_frame": 22,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_1.db3",
+          "id": 2237
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_1.db3",
+          "id": 2252
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_1.db3",
+          "id": 2281
+        }
+      }
+    },
+    {
+      "record_ns": 1787586840048628499,
+      "original_frame": 23,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_1.db3",
+          "id": 2514
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_1.db3",
+          "id": 2527
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_1.db3",
+          "id": 2556
+        }
+      }
+    },
+    {
+      "record_ns": 1787586843576519051,
+      "original_frame": 24,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_1.db3",
+          "id": 2787
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_1.db3",
+          "id": 2803
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_1.db3",
+          "id": 2841
+        }
+      }
+    },
+    {
+      "record_ns": 1787586846876488433,
+      "original_frame": 25,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_1.db3",
+          "id": 3062
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_1.db3",
+          "id": 3076
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_1.db3",
+          "id": 3104
+        }
+      }
+    },
+    {
+      "record_ns": 1787586850409359543,
+      "original_frame": 26,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_1.db3",
+          "id": 3335
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_1.db3",
+          "id": 3349
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_1.db3",
+          "id": 3390
+        }
+      }
+    },
+    {
+      "record_ns": 1787586853671236572,
+      "original_frame": 27,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_1.db3",
+          "id": 3605
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_1.db3",
+          "id": 3621
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_1.db3",
+          "id": 3652
+        }
+      }
+    },
+    {
+      "record_ns": 1787586857200852831,
+      "original_frame": 28,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_2.db3",
+          "id": 32
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_2.db3",
+          "id": 44
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_2.db3",
+          "id": 82
+        }
+      }
+    },
+    {
+      "record_ns": 1787586860452172145,
+      "original_frame": 29,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_2.db3",
+          "id": 301
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_2.db3",
+          "id": 317
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_2.db3",
+          "id": 343
+        }
+      }
+    },
+    {
+      "record_ns": 1787586863989919787,
+      "original_frame": 30,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_2.db3",
+          "id": 577
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_2.db3",
+          "id": 589
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_2.db3",
+          "id": 627
+        }
+      }
+    },
+    {
+      "record_ns": 1787586867294962424,
+      "original_frame": 31,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_2.db3",
+          "id": 851
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_2.db3",
+          "id": 863
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_2.db3",
+          "id": 893
+        }
+      }
+    },
+    {
+      "record_ns": 1787586870678552487,
+      "original_frame": 32,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_2.db3",
+          "id": 1120
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_2.db3",
+          "id": 1136
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_2.db3",
+          "id": 1166
+        }
+      }
+    },
+    {
+      "record_ns": 1787586874115356114,
+      "original_frame": 33,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_2.db3",
+          "id": 1397
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_2.db3",
+          "id": 1410
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_2.db3",
+          "id": 1443
+        }
+      }
+    },
+    {
+      "record_ns": 1787586877683360482,
+      "original_frame": 34,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_2.db3",
+          "id": 1672
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_2.db3",
+          "id": 1689
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_2.db3",
+          "id": 1728
+        }
+      }
+    },
+    {
+      "record_ns": 1787586881007197457,
+      "original_frame": 35,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_2.db3",
+          "id": 1949
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_2.db3",
+          "id": 1962
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_2.db3",
+          "id": 1994
+        }
+      }
+    },
+    {
+      "record_ns": 1787586884520458252,
+      "original_frame": 36,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_2.db3",
+          "id": 2222
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_2.db3",
+          "id": 2247
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_2.db3",
+          "id": 2277
+        }
+      }
+    },
+    {
+      "record_ns": 1787586887884227871,
+      "original_frame": 37,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_2.db3",
+          "id": 2500
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_2.db3",
+          "id": 2516
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_2.db3",
+          "id": 2547
+        }
+      }
+    },
+    {
+      "record_ns": 1787586891330321650,
+      "original_frame": 38,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_2.db3",
+          "id": 2780
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_2.db3",
+          "id": 2793
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_2.db3",
+          "id": 2821
+        }
+      }
+    },
+    {
+      "record_ns": 1787586894723476406,
+      "original_frame": 39,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_2.db3",
+          "id": 3050
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_2.db3",
+          "id": 3066
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_2.db3",
+          "id": 3096
+        }
+      }
+    },
+    {
+      "record_ns": 1787586898261366087,
+      "original_frame": 40,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_2.db3",
+          "id": 3326
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_2.db3",
+          "id": 3342
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_2.db3",
+          "id": 3380
+        }
+      }
+    },
+    {
+      "record_ns": 1787586901572717478,
+      "original_frame": 41,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_2.db3",
+          "id": 3602
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_2.db3",
+          "id": 3614
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_2.db3",
+          "id": 3646
+        }
+      }
+    },
+    {
+      "record_ns": 1787586905009982194,
+      "original_frame": 42,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_3.db3",
+          "id": 44
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_3.db3",
+          "id": 57
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_3.db3",
+          "id": 86
+        }
+      }
+    },
+    {
+      "record_ns": 1787586908390079535,
+      "original_frame": 43,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_3.db3",
+          "id": 315
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_3.db3",
+          "id": 325
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_3.db3",
+          "id": 356
+        }
+      }
+    },
+    {
+      "record_ns": 1787586911946317471,
+      "original_frame": 44,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_3.db3",
+          "id": 590
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_3.db3",
+          "id": 603
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_3.db3",
+          "id": 640
+        }
+      }
+    },
+    {
+      "record_ns": 1787586915295842938,
+      "original_frame": 45,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_3.db3",
+          "id": 860
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_3.db3",
+          "id": 871
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_3.db3",
+          "id": 910
+        }
+      }
+    },
+    {
+      "record_ns": 1787586918563884252,
+      "original_frame": 46,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_3.db3",
+          "id": 1132
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_3.db3",
+          "id": 1144
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_3.db3",
+          "id": 1175
+        }
+      }
+    },
+    {
+      "record_ns": 1787586922057114186,
+      "original_frame": 47,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_3.db3",
+          "id": 1400
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_3.db3",
+          "id": 1417
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_3.db3",
+          "id": 1455
+        }
+      }
+    },
+    {
+      "record_ns": 1787586925394224657,
+      "original_frame": 48,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_3.db3",
+          "id": 1679
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_3.db3",
+          "id": 1693
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_3.db3",
+          "id": 1721
+        }
+      }
+    },
+    {
+      "record_ns": 1787586928973961539,
+      "original_frame": 49,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_3.db3",
+          "id": 1955
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_3.db3",
+          "id": 1968
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_3.db3",
+          "id": 2009
+        }
+      }
+    },
+    {
+      "record_ns": 1787586932370576412,
+      "original_frame": 50,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_3.db3",
+          "id": 2228
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_3.db3",
+          "id": 2244
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_3.db3",
+          "id": 2282
+        }
+      }
+    },
+    {
+      "record_ns": 1787586935776082264,
+      "original_frame": 51,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_3.db3",
+          "id": 2501
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_3.db3",
+          "id": 2517
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_3.db3",
+          "id": 2555
+        }
+      }
+    },
+    {
+      "record_ns": 1787586939101579606,
+      "original_frame": 52,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_3.db3",
+          "id": 2778
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_3.db3",
+          "id": 2790
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_3.db3",
+          "id": 2819
+        }
+      }
+    },
+    {
+      "record_ns": 1787586942669813398,
+      "original_frame": 53,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_3.db3",
+          "id": 3054
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_3.db3",
+          "id": 3070
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_3.db3",
+          "id": 3108
+        }
+      }
+    },
+    {
+      "record_ns": 1787586946054664015,
+      "original_frame": 54,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_3.db3",
+          "id": 3335
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_3.db3",
+          "id": 3348
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_3.db3",
+          "id": 3378
+        }
+      }
+    },
+    {
+      "record_ns": 1787586949542354550,
+      "original_frame": 55,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_3.db3",
+          "id": 3615
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_3.db3",
+          "id": 3631
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_3.db3",
+          "id": 3657
+        }
+      }
+    },
+    {
+      "record_ns": 1787586953182659792,
+      "original_frame": 56,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_4.db3",
+          "id": 47
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_4.db3",
+          "id": 64
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_4.db3",
+          "id": 102
+        }
+      }
+    },
+    {
+      "record_ns": 1787586956491475709,
+      "original_frame": 57,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_4.db3",
+          "id": 322
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_4.db3",
+          "id": 337
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_4.db3",
+          "id": 367
+        }
+      }
+    },
+    {
+      "record_ns": 1787586960011995818,
+      "original_frame": 58,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_4.db3",
+          "id": 598
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_4.db3",
+          "id": 610
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_4.db3",
+          "id": 651
+        }
+      }
+    },
+    {
+      "record_ns": 1787586963421979702,
+      "original_frame": 59,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_4.db3",
+          "id": 878
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_4.db3",
+          "id": 894
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_4.db3",
+          "id": 924
+        }
+      }
+    },
+    {
+      "record_ns": 1787586967009085426,
+      "original_frame": 60,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_4.db3",
+          "id": 1156
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_4.db3",
+          "id": 1171
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_4.db3",
+          "id": 1212
+        }
+      }
+    },
+    {
+      "record_ns": 1787586970462912920,
+      "original_frame": 61,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_4.db3",
+          "id": 1435
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_4.db3",
+          "id": 1448
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_4.db3",
+          "id": 1489
+        }
+      }
+    },
+    {
+      "record_ns": 1787586973755416186,
+      "original_frame": 62,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_4.db3",
+          "id": 1708
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_4.db3",
+          "id": 1721
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_4.db3",
+          "id": 1750
+        }
+      }
+    },
+    {
+      "record_ns": 1787586977269790729,
+      "original_frame": 63,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_4.db3",
+          "id": 1989
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_4.db3",
+          "id": 2002
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_4.db3",
+          "id": 2035
+        }
+      }
+    },
+    {
+      "record_ns": 1787586980720625466,
+      "original_frame": 64,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_4.db3",
+          "id": 2266
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_4.db3",
+          "id": 2278
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_4.db3",
+          "id": 2312
+        }
+      }
+    },
+    {
+      "record_ns": 1787586984249780253,
+      "original_frame": 65,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_4.db3",
+          "id": 2547
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_4.db3",
+          "id": 2563
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_4.db3",
+          "id": 2592
+        }
+      }
+    },
+    {
+      "record_ns": 1787586987810941214,
+      "original_frame": 66,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_4.db3",
+          "id": 2824
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_4.db3",
+          "id": 2843
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_4.db3",
+          "id": 2880
+        }
+      }
+    },
+    {
+      "record_ns": 1787586991226705408,
+      "original_frame": 67,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_4.db3",
+          "id": 3109
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_4.db3",
+          "id": 3123
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_4.db3",
+          "id": 3150
+        }
+      }
+    },
+    {
+      "record_ns": 1787586994765289825,
+      "original_frame": 68,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_4.db3",
+          "id": 3384
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_4.db3",
+          "id": 3400
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_4.db3",
+          "id": 3438
+        }
+      }
+    },
+    {
+      "record_ns": 1787586998181735573,
+      "original_frame": 69,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_4.db3",
+          "id": 3657
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_4.db3",
+          "id": 3673
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_4.db3",
+          "id": 3711
+        }
+      }
+    },
+    {
+      "record_ns": 1787587001486628429,
+      "original_frame": 70,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_5.db3",
+          "id": 50
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_5.db3",
+          "id": 62
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_5.db3",
+          "id": 91
+        }
+      }
+    },
+    {
+      "record_ns": 1787587004927694582,
+      "original_frame": 71,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_5.db3",
+          "id": 323
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_5.db3",
+          "id": 339
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_5.db3",
+          "id": 369
+        }
+      }
+    },
+    {
+      "record_ns": 1787587008529096646,
+      "original_frame": 72,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_5.db3",
+          "id": 604
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_5.db3",
+          "id": 620
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_5.db3",
+          "id": 657
+        }
+      }
+    },
+    {
+      "record_ns": 1787587011961399524,
+      "original_frame": 73,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_5.db3",
+          "id": 880
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_5.db3",
+          "id": 893
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_5.db3",
+          "id": 934
+        }
+      }
+    },
+    {
+      "record_ns": 1787587015341036416,
+      "original_frame": 74,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_5.db3",
+          "id": 1152
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_5.db3",
+          "id": 1166
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_5.db3",
+          "id": 1203
+        }
+      }
+    },
+    {
+      "record_ns": 1787587018739499995,
+      "original_frame": 75,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_5.db3",
+          "id": 1422
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_5.db3",
+          "id": 1439
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_5.db3",
+          "id": 1476
+        }
+      }
+    },
+    {
+      "record_ns": 1787587022022119037,
+      "original_frame": 76,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_5.db3",
+          "id": 1699
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_5.db3",
+          "id": 1712
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_5.db3",
+          "id": 1739
+        }
+      }
+    },
+    {
+      "record_ns": 1787587025541584754,
+      "original_frame": 77,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_5.db3",
+          "id": 1972
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_5.db3",
+          "id": 1985
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_5.db3",
+          "id": 2022
+        }
+      }
+    },
+    {
+      "record_ns": 1787587028844016400,
+      "original_frame": 78,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_5.db3",
+          "id": 2243
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_5.db3",
+          "id": 2258
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_5.db3",
+          "id": 2287
+        }
+      }
+    },
+    {
+      "record_ns": 1787587032281497358,
+      "original_frame": 79,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_5.db3",
+          "id": 2518
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_5.db3",
+          "id": 2534
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_5.db3",
+          "id": 2565
+        }
+      }
+    },
+    {
+      "record_ns": 1787587035748837500,
+      "original_frame": 80,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_5.db3",
+          "id": 2791
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_5.db3",
+          "id": 2803
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_5.db3",
+          "id": 2841
+        }
+      }
+    },
+    {
+      "record_ns": 1787587039037212375,
+      "original_frame": 81,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_5.db3",
+          "id": 3064
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_5.db3",
+          "id": 3077
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_5.db3",
+          "id": 3106
+        }
+      }
+    },
+    {
+      "record_ns": 1787587042620318212,
+      "original_frame": 82,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_5.db3",
+          "id": 3341
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_5.db3",
+          "id": 3353
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_5.db3",
+          "id": 3394
+        }
+      }
+    },
+    {
+      "record_ns": 1787587045985153646,
+      "original_frame": 83,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_5.db3",
+          "id": 3617
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_5.db3",
+          "id": 3633
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_5.db3",
+          "id": 3664
+        }
+      }
+    },
+    {
+      "record_ns": 1787587049554087263,
+      "original_frame": 84,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_6.db3",
+          "id": 228
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_6.db3",
+          "id": 244
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_6.db3",
+          "id": 281
+        }
+      }
+    },
+    {
+      "record_ns": 1787587053186465556,
+      "original_frame": 85,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_6.db3",
+          "id": 504
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_6.db3",
+          "id": 520
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_6.db3",
+          "id": 573
+        }
+      }
+    },
+    {
+      "record_ns": 1787587056444712272,
+      "original_frame": 86,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_6.db3",
+          "id": 780
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_6.db3",
+          "id": 796
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_6.db3",
+          "id": 834
+        }
+      }
+    },
+    {
+      "record_ns": 1787587059794485147,
+      "original_frame": 87,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_6.db3",
+          "id": 1057
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_6.db3",
+          "id": 1073
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_6.db3",
+          "id": 1104
+        }
+      }
+    },
+    {
+      "record_ns": 1787587063276371564,
+      "original_frame": 88,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_6.db3",
+          "id": 1338
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_6.db3",
+          "id": 1354
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_6.db3",
+          "id": 1384
+        }
+      }
+    },
+    {
+      "record_ns": 1787587066704904394,
+      "original_frame": 89,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_6.db3",
+          "id": 1615
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_6.db3",
+          "id": 1627
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_6.db3",
+          "id": 1658
+        }
+      }
+    },
+    {
+      "record_ns": 1787587070137091663,
+      "original_frame": 90,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_6.db3",
+          "id": 1896
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_6.db3",
+          "id": 1904
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_6.db3",
+          "id": 1931
+        }
+      }
+    },
+    {
+      "record_ns": 1787587073733767041,
+      "original_frame": 91,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_6.db3",
+          "id": 2169
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_6.db3",
+          "id": 2184
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_6.db3",
+          "id": 2222
+        }
+      }
+    },
+    {
+      "record_ns": 1787587077062872457,
+      "original_frame": 92,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_6.db3",
+          "id": 2444
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_6.db3",
+          "id": 2458
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_6.db3",
+          "id": 2491
+        }
+      }
+    },
+    {
+      "record_ns": 1787587080498217656,
+      "original_frame": 93,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_6.db3",
+          "id": 2722
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_6.db3",
+          "id": 2734
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_6.db3",
+          "id": 2765
+        }
+      }
+    },
+    {
+      "record_ns": 1787587083984741966,
+      "original_frame": 94,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_6.db3",
+          "id": 2998
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_6.db3",
+          "id": 3014
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_6.db3",
+          "id": 3045
+        }
+      }
+    },
+    {
+      "record_ns": 1787587087651826603,
+      "original_frame": 95,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_6.db3",
+          "id": 3277
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_6.db3",
+          "id": 3299
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_6.db3",
+          "id": 3336
+        }
+      }
+    },
+    {
+      "record_ns": 1787587090891469912,
+      "original_frame": 96,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_6.db3",
+          "id": 3556
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_6.db3",
+          "id": 3568
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_6.db3",
+          "id": 3597
+        }
+      }
+    },
+    {
+      "record_ns": 1787587094432934581,
+      "original_frame": 97,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_6.db3",
+          "id": 3828
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_6.db3",
+          "id": 3845
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_7.db3",
+          "id": 5
+        }
+      }
+    },
+    {
+      "record_ns": 1787587097822505453,
+      "original_frame": 98,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_7.db3",
+          "id": 225
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_7.db3",
+          "id": 237
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_7.db3",
+          "id": 278
+        }
+      }
+    },
+    {
+      "record_ns": 1787587101297896376,
+      "original_frame": 99,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_7.db3",
+          "id": 505
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_7.db3",
+          "id": 517
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_7.db3",
+          "id": 556
+        }
+      }
+    },
+    {
+      "record_ns": 1787587104657960902,
+      "original_frame": 100,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_7.db3",
+          "id": 781
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_7.db3",
+          "id": 795
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_7.db3",
+          "id": 825
+        }
+      }
+    },
+    {
+      "record_ns": 1787587108076204224,
+      "original_frame": 101,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_7.db3",
+          "id": 1056
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_7.db3",
+          "id": 1071
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_7.db3",
+          "id": 1102
+        }
+      }
+    },
+    {
+      "record_ns": 1787587111638768162,
+      "original_frame": 102,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_7.db3",
+          "id": 1332
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_7.db3",
+          "id": 1348
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_7.db3",
+          "id": 1385
+        }
+      }
+    },
+    {
+      "record_ns": 1787587114965643490,
+      "original_frame": 103,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_7.db3",
+          "id": 1608
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_7.db3",
+          "id": 1624
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_7.db3",
+          "id": 1653
+        }
+      }
+    },
+    {
+      "record_ns": 1787587118414928637,
+      "original_frame": 104,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_7.db3",
+          "id": 1886
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_7.db3",
+          "id": 1901
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_7.db3",
+          "id": 1931
+        }
+      }
+    },
+    {
+      "record_ns": 1787587121845251169,
+      "original_frame": 105,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_7.db3",
+          "id": 2162
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_7.db3",
+          "id": 2182
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_7.db3",
+          "id": 2203
+        }
+      }
+    },
+    {
+      "record_ns": 1787587125254382438,
+      "original_frame": 106,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_7.db3",
+          "id": 2434
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_7.db3",
+          "id": 2448
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_7.db3",
+          "id": 2480
+        }
+      }
+    },
+    {
+      "record_ns": 1787587128661997971,
+      "original_frame": 107,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_7.db3",
+          "id": 2708
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_7.db3",
+          "id": 2723
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_7.db3",
+          "id": 2753
+        }
+      }
+    },
+    {
+      "record_ns": 1787587132093684954,
+      "original_frame": 108,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_7.db3",
+          "id": 2985
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_7.db3",
+          "id": 3001
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_7.db3",
+          "id": 3026
+        }
+      }
+    },
+    {
+      "record_ns": 1787587135507440069,
+      "original_frame": 109,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_7.db3",
+          "id": 3261
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_7.db3",
+          "id": 3274
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_7.db3",
+          "id": 3303
+        }
+      }
+    },
+    {
+      "record_ns": 1787587139045403760,
+      "original_frame": 110,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_7.db3",
+          "id": 3533
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_7.db3",
+          "id": 3546
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_7.db3",
+          "id": 3583
+        }
+      }
+    },
+    {
+      "record_ns": 1787587142400500497,
+      "original_frame": 111,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_7.db3",
+          "id": 3812
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_7.db3",
+          "id": 3827
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_7.db3",
+          "id": 3853
+        }
+      }
+    },
+    {
+      "record_ns": 1787587146023198521,
+      "original_frame": 112,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_8.db3",
+          "id": 236
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_8.db3",
+          "id": 251
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_8.db3",
+          "id": 288
+        }
+      }
+    },
+    {
+      "record_ns": 1787587149291684924,
+      "original_frame": 113,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_8.db3",
+          "id": 508
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_8.db3",
+          "id": 524
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_8.db3",
+          "id": 550
+        }
+      }
+    },
+    {
+      "record_ns": 1787587152825746545,
+      "original_frame": 114,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_8.db3",
+          "id": 781
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_8.db3",
+          "id": 796
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_8.db3",
+          "id": 834
+        }
+      }
+    },
+    {
+      "record_ns": 1787587156160507672,
+      "original_frame": 115,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_8.db3",
+          "id": 1062
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_8.db3",
+          "id": 1073
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_8.db3",
+          "id": 1103
+        }
+      }
+    },
+    {
+      "record_ns": 1787587159658095454,
+      "original_frame": 116,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_8.db3",
+          "id": 1335
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_8.db3",
+          "id": 1346
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_8.db3",
+          "id": 1383
+        }
+      }
+    },
+    {
+      "record_ns": 1787587162906778756,
+      "original_frame": 117,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_8.db3",
+          "id": 1602
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_8.db3",
+          "id": 1616
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_8.db3",
+          "id": 1644
+        }
+      }
+    },
+    {
+      "record_ns": 1787587166341020829,
+      "original_frame": 118,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_8.db3",
+          "id": 1875
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_8.db3",
+          "id": 1892
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_8.db3",
+          "id": 1919
+        }
+      }
+    },
+    {
+      "record_ns": 1787587169764492596,
+      "original_frame": 119,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_8.db3",
+          "id": 2149
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_8.db3",
+          "id": 2165
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_8.db3",
+          "id": 2196
+        }
+      }
+    },
+    {
+      "record_ns": 1787587173293590970,
+      "original_frame": 120,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_8.db3",
+          "id": 2427
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_8.db3",
+          "id": 2438
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_8.db3",
+          "id": 2477
+        }
+      }
+    },
+    {
+      "record_ns": 1787587176534990351,
+      "original_frame": 121,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_8.db3",
+          "id": 2700
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_8.db3",
+          "id": 2711
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_8.db3",
+          "id": 2737
+        }
+      }
+    },
+    {
+      "record_ns": 1787587179926476997,
+      "original_frame": 122,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_8.db3",
+          "id": 2968
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_8.db3",
+          "id": 2984
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_8.db3",
+          "id": 3010
+        }
+      }
+    },
+    {
+      "record_ns": 1787587183310443834,
+      "original_frame": 123,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_8.db3",
+          "id": 3241
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_8.db3",
+          "id": 3254
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_8.db3",
+          "id": 3284
+        }
+      }
+    },
+    {
+      "record_ns": 1787587186780764798,
+      "original_frame": 124,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_8.db3",
+          "id": 3510
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_8.db3",
+          "id": 3523
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_8.db3",
+          "id": 3561
+        }
+      }
+    },
+    {
+      "record_ns": 1787587190108734003,
+      "original_frame": 125,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_8.db3",
+          "id": 3780
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_8.db3",
+          "id": 3794
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_9.db3",
+          "id": 10
+        }
+      }
+    },
+    {
+      "record_ns": 1787587193322800652,
+      "original_frame": 126,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_9.db3",
+          "id": 225
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_9.db3",
+          "id": 239
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_9.db3",
+          "id": 266
+        }
+      }
+    },
+    {
+      "record_ns": 1787587196699725504,
+      "original_frame": 127,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_9.db3",
+          "id": 498
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_9.db3",
+          "id": 511
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_9.db3",
+          "id": 537
+        }
+      }
+    },
+    {
+      "record_ns": 1787587200175496785,
+      "original_frame": 128,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_9.db3",
+          "id": 768
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_9.db3",
+          "id": 780
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_9.db3",
+          "id": 818
+        }
+      }
+    },
+    {
+      "record_ns": 1787587203516275487,
+      "original_frame": 129,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_9.db3",
+          "id": 1037
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_9.db3",
+          "id": 1050
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_9.db3",
+          "id": 1087
+        }
+      }
+    },
+    {
+      "record_ns": 1787587206947377134,
+      "original_frame": 130,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_9.db3",
+          "id": 1310
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_9.db3",
+          "id": 1323
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_9.db3",
+          "id": 1360
+        }
+      }
+    },
+    {
+      "record_ns": 1787587210178807690,
+      "original_frame": 131,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_9.db3",
+          "id": 1580
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_9.db3",
+          "id": 1591
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_9.db3",
+          "id": 1622
+        }
+      }
+    },
+    {
+      "record_ns": 1787587213597975141,
+      "original_frame": 132,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_9.db3",
+          "id": 1853
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_9.db3",
+          "id": 1869
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_9.db3",
+          "id": 1895
+        }
+      }
+    },
+    {
+      "record_ns": 1787587216971507039,
+      "original_frame": 133,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_9.db3",
+          "id": 2123
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_9.db3",
+          "id": 2137
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_9.db3",
+          "id": 2166
+        }
+      }
+    },
+    {
+      "record_ns": 1787587220459605194,
+      "original_frame": 134,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_9.db3",
+          "id": 2394
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_9.db3",
+          "id": 2410
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_9.db3",
+          "id": 2448
+        }
+      }
+    },
+    {
+      "record_ns": 1787587223768760671,
+      "original_frame": 135,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_9.db3",
+          "id": 2671
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_9.db3",
+          "id": 2683
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_9.db3",
+          "id": 2714
+        }
+      }
+    },
+    {
+      "record_ns": 1787587227062543626,
+      "original_frame": 136,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_9.db3",
+          "id": 2937
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_9.db3",
+          "id": 2949
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_9.db3",
+          "id": 2978
+        }
+      }
+    },
+    {
+      "record_ns": 1787587230322590987,
+      "original_frame": 137,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_9.db3",
+          "id": 3198
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_9.db3",
+          "id": 3212
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_9.db3",
+          "id": 3239
+        }
+      }
+    },
+    {
+      "record_ns": 1787587233778395626,
+      "original_frame": 138,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_9.db3",
+          "id": 3468
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_9.db3",
+          "id": 3487
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_9.db3",
+          "id": 3518
+        }
+      }
+    },
+    {
+      "record_ns": 1787587237098155566,
+      "original_frame": 139,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_9.db3",
+          "id": 3742
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_9.db3",
+          "id": 3757
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_9.db3",
+          "id": 3782
+        }
+      }
+    },
+    {
+      "record_ns": 1787587240576852120,
+      "original_frame": 140,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_10.db3",
+          "id": 27
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_10.db3",
+          "id": 39
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_10.db3",
+          "id": 69
+        }
+      }
+    },
+    {
+      "record_ns": 1787587244109814584,
+      "original_frame": 141,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_10.db3",
+          "id": 307
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_10.db3",
+          "id": 323
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_10.db3",
+          "id": 352
+        }
+      }
+    },
+    {
+      "record_ns": 1787587247648199846,
+      "original_frame": 142,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_10.db3",
+          "id": 591
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_10.db3",
+          "id": 605
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_10.db3",
+          "id": 631
+        }
+      }
+    },
+    {
+      "record_ns": 1787587251253411571,
+      "original_frame": 143,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_10.db3",
+          "id": 871
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_10.db3",
+          "id": 884
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_10.db3",
+          "id": 924
+        }
+      }
+    },
+    {
+      "record_ns": 1787587254566340552,
+      "original_frame": 144,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_10.db3",
+          "id": 1155
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_10.db3",
+          "id": 1160
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_10.db3",
+          "id": 1189
+        }
+      }
+    },
+    {
+      "record_ns": 1787587258036210154,
+      "original_frame": 145,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_10.db3",
+          "id": 1425
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_10.db3",
+          "id": 1439
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_10.db3",
+          "id": 1467
+        }
+      }
+    },
+    {
+      "record_ns": 1787587261609729411,
+      "original_frame": 146,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_10.db3",
+          "id": 1710
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_10.db3",
+          "id": 1715
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_10.db3",
+          "id": 1755
+        }
+      }
+    },
+    {
+      "record_ns": 1787587264947250159,
+      "original_frame": 147,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_10.db3",
+          "id": 1978
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_10.db3",
+          "id": 1994
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_10.db3",
+          "id": 2021
+        }
+      }
+    },
+    {
+      "record_ns": 1787587268504824901,
+      "original_frame": 148,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_10.db3",
+          "id": 2256
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_10.db3",
+          "id": 2272
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_10.db3",
+          "id": 2309
+        }
+      }
+    },
+    {
+      "record_ns": 1787587271904852405,
+      "original_frame": 149,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_10.db3",
+          "id": 2536
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_10.db3",
+          "id": 2548
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_10.db3",
+          "id": 2580
+        }
+      }
+    },
+    {
+      "record_ns": 1787587275522583983,
+      "original_frame": 150,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_10.db3",
+          "id": 2817
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_10.db3",
+          "id": 2833
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_10.db3",
+          "id": 2870
+        }
+      }
+    },
+    {
+      "record_ns": 1787587279056423827,
+      "original_frame": 151,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_10.db3",
+          "id": 3097
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_10.db3",
+          "id": 3113
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_10.db3",
+          "id": 3154
+        }
+      }
+    },
+    {
+      "record_ns": 1787587282565025451,
+      "original_frame": 152,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_10.db3",
+          "id": 3381
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_10.db3",
+          "id": 3394
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_10.db3",
+          "id": 3435
+        }
+      }
+    },
+    {
+      "record_ns": 1787587286030578547,
+      "original_frame": 153,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_10.db3",
+          "id": 3664
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_10.db3",
+          "id": 3677
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_10.db3",
+          "id": 3711
+        }
+      }
+    },
+    {
+      "record_ns": 1787587289545052412,
+      "original_frame": 154,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_11.db3",
+          "id": 11
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_11.db3",
+          "id": 24
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_11.db3",
+          "id": 52
+        }
+      }
+    },
+    {
+      "record_ns": 1787587293157505309,
+      "original_frame": 155,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_11.db3",
+          "id": 296
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_11.db3",
+          "id": 312
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_11.db3",
+          "id": 346
+        }
+      }
+    },
+    {
+      "record_ns": 1787587296760282800,
+      "original_frame": 156,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_11.db3",
+          "id": 584
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_11.db3",
+          "id": 600
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_11.db3",
+          "id": 632
+        }
+      }
+    },
+    {
+      "record_ns": 1787587300449449071,
+      "original_frame": 157,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_11.db3",
+          "id": 875
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_11.db3",
+          "id": 891
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_11.db3",
+          "id": 928
+        }
+      }
+    },
+    {
+      "record_ns": 1787587304152098361,
+      "original_frame": 158,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_11.db3",
+          "id": 1168
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_11.db3",
+          "id": 1183
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_11.db3",
+          "id": 1224
+        }
+      }
+    },
+    {
+      "record_ns": 1787587307642310548,
+      "original_frame": 159,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_11.db3",
+          "id": 1455
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_11.db3",
+          "id": 1468
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_11.db3",
+          "id": 1501
+        }
+      }
+    },
+    {
+      "record_ns": 1787587311177491581,
+      "original_frame": 160,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_11.db3",
+          "id": 1736
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_11.db3",
+          "id": 1752
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_11.db3",
+          "id": 1784
+        }
+      }
+    },
+    {
+      "record_ns": 1787587314780753551,
+      "original_frame": 161,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_11.db3",
+          "id": 2024
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_11.db3",
+          "id": 2040
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_11.db3",
+          "id": 2072
+        }
+      }
+    },
+    {
+      "record_ns": 1787587318575011074,
+      "original_frame": 162,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_11.db3",
+          "id": 2316
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_11.db3",
+          "id": 2334
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_11.db3",
+          "id": 2377
+        }
+      }
+    },
+    {
+      "record_ns": 1787587322196510044,
+      "original_frame": 163,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_11.db3",
+          "id": 2611
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_11.db3",
+          "id": 2627
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_11.db3",
+          "id": 2665
+        }
+      }
+    },
+    {
+      "record_ns": 1787587325940426256,
+      "original_frame": 164,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_11.db3",
+          "id": 2903
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_11.db3",
+          "id": 2920
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_11.db3",
+          "id": 2964
+        }
+      }
+    },
+    {
+      "record_ns": 1787587329558882232,
+      "original_frame": 165,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_11.db3",
+          "id": 3199
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_11.db3",
+          "id": 3215
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_11.db3",
+          "id": 3255
+        }
+      }
+    },
+    {
+      "record_ns": 1787587333199981789,
+      "original_frame": 166,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_11.db3",
+          "id": 3494
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_11.db3",
+          "id": 3510
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_11.db3",
+          "id": 3547
+        }
+      }
+    },
+    {
+      "record_ns": 1787587336880570372,
+      "original_frame": 167,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_11.db3",
+          "id": 3790
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_11.db3",
+          "id": 3806
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_11.db3",
+          "id": 3839
+        }
+      }
+    },
+    {
+      "record_ns": 1787587340658163717,
+      "original_frame": 168,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_11.db3",
+          "id": 4088
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_11.db3",
+          "id": 4104
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_12.db3",
+          "id": 18
+        }
+      }
+    },
+    {
+      "record_ns": 1787587344367543717,
+      "original_frame": 169,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_12.db3",
+          "id": 256
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_12.db3",
+          "id": 272
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_12.db3",
+          "id": 313
+        }
+      }
+    },
+    {
+      "record_ns": 1787587347872675466,
+      "original_frame": 170,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_12.db3",
+          "id": 543
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_12.db3",
+          "id": 560
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_12.db3",
+          "id": 594
+        }
+      }
+    },
+    {
+      "record_ns": 1787587351507327653,
+      "original_frame": 171,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_12.db3",
+          "id": 835
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_12.db3",
+          "id": 851
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_12.db3",
+          "id": 883
+        }
+      }
+    },
+    {
+      "record_ns": 1787587355160148524,
+      "original_frame": 172,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_12.db3",
+          "id": 1126
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_12.db3",
+          "id": 1142
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_12.db3",
+          "id": 1177
+        }
+      }
+    },
+    {
+      "record_ns": 1787587358789065965,
+      "original_frame": 173,
+      "messages": {
+        "/Car/T5/Cam_Left/image_raw/color": {
+          "part": "20260824_235238_12.db3",
+          "id": 1418
+        },
+        "/Car/T5/Cam_Right/image_raw/color": {
+          "part": "20260824_235238_12.db3",
+          "id": 1434
+        },
+        "/Car/T5/OS1/points": {
+          "part": "20260824_235238_12.db3",
+          "id": 1463
+        }
+      }
+    }
+  ]
+}

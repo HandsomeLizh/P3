@@ -1,0 +1,9 @@
+{
+  "live_graph": "{\n  \"domain\": 10,\n  \"sensor_topics\": [\n    [\n      \"/Car/T5/OS1/points\",\n      [\n        \"sensor_msgs/msg/PointCloud2\"\n      ]\n    ]\n  ]\n}\n",
+  "candidate_files": [
+    {
+      "path": "/home/yanfa/P3/data1223/Measure.xlsx",
+      "bytes": 4379903
+    }
+  ]
+}
